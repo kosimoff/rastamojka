@@ -735,7 +735,7 @@ var render = function() {
               }
             }),
             _vm._v(" "),
-            _c("p", { staticClass: "mt-5" }, [_vm._v("Объем двиателя (d㎥)")]),
+            _c("p", { staticClass: "mt-5" }, [_vm._v("Объем двиателя (дм³)")]),
             _vm._v(" "),
             _c("input", {
               directives: [
@@ -827,7 +827,7 @@ var render = function() {
             _c("p", [_vm._v("Стоимость: " + _vm._s(_vm.price) + "$")]),
             _vm._v(" "),
             _c("p", [
-              _vm._v("Объем двигателя: " + _vm._s(_vm.engineCapacity) + "d㎥")
+              _vm._v("Объем двигателя: " + _vm._s(_vm.engineCapacity) + "дм³")
             ]),
             _vm._v(" "),
             _c("p", [
