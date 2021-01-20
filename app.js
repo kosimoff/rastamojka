@@ -126,6 +126,14 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Application",
   props: [],
@@ -690,165 +698,180 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "p-10 text-center" }, [
+  return _c("div", { staticClass: "p-5 flex content-center" }, [
     !_vm.result
-      ? _c("div", {}, [
-          _vm._m(0),
-          _vm._v(" "),
-          _c("input", {
-            directives: [
-              {
-                name: "model",
-                rawName: "v-model",
-                value: _vm.price,
-                expression: "price"
-              }
-            ],
+      ? _c(
+          "div",
+          {
             staticClass:
-              "text-center border-blue-700 rounded-lg border focus:outline-none",
-            attrs: { type: "number" },
-            domProps: { value: _vm.price },
-            on: {
-              input: function($event) {
-                if ($event.target.composing) {
-                  return
-                }
-                _vm.price = $event.target.value
-              }
-            }
-          }),
-          _vm._v(" "),
-          _c("p", { staticClass: "mt-5" }, [_vm._v("Объем двиателя (d㎥)")]),
-          _vm._v(" "),
-          _c("input", {
-            directives: [
-              {
-                name: "model",
-                rawName: "v-model",
-                value: _vm.engineCapacity,
-                expression: "engineCapacity"
-              }
-            ],
-            staticClass:
-              "text-center border-blue-700 rounded-lg border focus:outline-none",
-            attrs: { type: "number" },
-            domProps: { value: _vm.engineCapacity },
-            on: {
-              input: function($event) {
-                if ($event.target.composing) {
-                  return
-                }
-                _vm.engineCapacity = $event.target.value
-              }
-            }
-          }),
-          _vm._v(" "),
-          _c("p", { staticClass: "mt-5" }, [
+              "bg-blue-800 m-auto p-12 rounded-lg text-white text-center"
+          },
+          [
+            _c("p", [_vm._v("РАСЧЕТ РАСТАМОЖКИ")]),
+            _vm._v(" "),
+            _vm._m(0),
+            _vm._v(" "),
             _c("input", {
               directives: [
                 {
                   name: "model",
                   rawName: "v-model",
-                  value: _vm.sng,
-                  expression: "sng"
+                  value: _vm.price,
+                  expression: "price"
                 }
               ],
-              attrs: { type: "checkbox", name: "", value: "" },
-              domProps: {
-                checked: Array.isArray(_vm.sng)
-                  ? _vm._i(_vm.sng, "") > -1
-                  : _vm.sng
-              },
+              staticClass:
+                "text-gray-700 text-center border-blue-700 rounded-lg border focus:outline-none",
+              attrs: { type: "number" },
+              domProps: { value: _vm.price },
               on: {
-                change: function($event) {
-                  var $$a = _vm.sng,
-                    $$el = $event.target,
-                    $$c = $$el.checked ? true : false
-                  if (Array.isArray($$a)) {
-                    var $$v = "",
-                      $$i = _vm._i($$a, $$v)
-                    if ($$el.checked) {
-                      $$i < 0 && (_vm.sng = $$a.concat([$$v]))
-                    } else {
-                      $$i > -1 &&
-                        (_vm.sng = $$a.slice(0, $$i).concat($$a.slice($$i + 1)))
-                    }
-                  } else {
-                    _vm.sng = $$c
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
                   }
+                  _vm.price = $event.target.value
                 }
               }
             }),
-            _vm._v(" из СНГ")
-          ]),
-          _vm._v(" "),
-          _c(
-            "button",
-            {
+            _vm._v(" "),
+            _c("p", { staticClass: "mt-5" }, [_vm._v("Объем двиателя (d㎥)")]),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.engineCapacity,
+                  expression: "engineCapacity"
+                }
+              ],
               staticClass:
-                "mt-5 p-3 bg-blue-700 hover:bg-blue-800 text-white focus:outline-none rounded-lg",
-              attrs: { type: "button", name: "button" },
+                "text-gray-700 text-center border-blue-700 rounded-lg border focus:outline-none",
+              attrs: { type: "number" },
+              domProps: { value: _vm.engineCapacity },
               on: {
-                click: function($event) {
-                  return _vm.calculate()
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.engineCapacity = $event.target.value
                 }
               }
-            },
-            [_vm._v("ПОДСЧИТАТЬ")]
-          )
-        ])
+            }),
+            _vm._v(" "),
+            _c("p", { staticClass: "mt-5" }, [
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.sng,
+                    expression: "sng"
+                  }
+                ],
+                attrs: { type: "checkbox", name: "", value: "" },
+                domProps: {
+                  checked: Array.isArray(_vm.sng)
+                    ? _vm._i(_vm.sng, "") > -1
+                    : _vm.sng
+                },
+                on: {
+                  change: function($event) {
+                    var $$a = _vm.sng,
+                      $$el = $event.target,
+                      $$c = $$el.checked ? true : false
+                    if (Array.isArray($$a)) {
+                      var $$v = "",
+                        $$i = _vm._i($$a, $$v)
+                      if ($$el.checked) {
+                        $$i < 0 && (_vm.sng = $$a.concat([$$v]))
+                      } else {
+                        $$i > -1 &&
+                          (_vm.sng = $$a
+                            .slice(0, $$i)
+                            .concat($$a.slice($$i + 1)))
+                      }
+                    } else {
+                      _vm.sng = $$c
+                    }
+                  }
+                }
+              }),
+              _vm._v(" из СНГ")
+            ]),
+            _vm._v(" "),
+            _c(
+              "button",
+              {
+                staticClass:
+                  "mt-5 px-8 py-2 bg-red-800 hover:bg-red-900 focus:outline-none rounded-lg",
+                attrs: { type: "button", name: "button" },
+                on: {
+                  click: function($event) {
+                    return _vm.calculate()
+                  }
+                }
+              },
+              [_vm._v("ПОДСЧИТАТЬ")]
+            )
+          ]
+        )
       : _vm._e(),
     _vm._v(" "),
     _vm.result
-      ? _c("div", {}, [
-          _c("p", [_vm._v("Стоимость: " + _vm._s(_vm.price) + "$")]),
-          _vm._v(" "),
-          _c("p", [
-            _vm._v("Объем двигателя: " + _vm._s(_vm.engineCapacity) + "d㎥")
+      ? _c("div", { staticClass: "m-auto" }, [
+          _c("div", { staticClass: "bg-gray-100 p-8" }, [
+            _vm._m(1),
+            _vm._v(" "),
+            _c("p", [_vm._v("Стоимость: " + _vm._s(_vm.price) + "$")]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v("Объем двигателя: " + _vm._s(_vm.engineCapacity) + "d㎥")
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _vm.sng
+                ? _c("span", [_vm._v("Из СНГ")])
+                : _c("span", [_vm._v("Не из СНГ")])
+            ]),
+            _vm._v(" "),
+            _vm._m(2),
+            _vm._v(" "),
+            _c("p", [_vm._v(_vm._s(_vm.poshlina) + "$ - пошлина")]),
+            _vm._v(" "),
+            _c("p", [_vm._v(_vm._s(_vm.akcizPrice) + "$ - акциз по цене")]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(_vm._s(_vm.akcizEngine) + "$ - акциз по объему двигателя")
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(_vm._s(_vm.akciz) + "$ - стоимость акциза для подсчета")
+            ]),
+            _vm._v(" "),
+            _c("p", [_vm._v(_vm._s(_vm.nds) + "$ - НДС")]),
+            _vm._v(" "),
+            _c("p", [_vm._v(_vm._s(_vm.procedure) + "$ - процедура")]),
+            _vm._v(" "),
+            _c("p", [_c("b", [_vm._v("Всего: " + _vm._s(_vm.total) + "$")])])
           ]),
           _vm._v(" "),
-          _c("p", [
-            _vm.sng
-              ? _c("span", [_vm._v("Из СНГ")])
-              : _c("span", [_vm._v("Не из СНГ")])
-          ]),
-          _vm._v(" "),
-          _c("p", { staticClass: "mt-10" }, [
-            _vm._v("Пошлина: " + _vm._s(_vm.poshlina) + "$")
-          ]),
-          _vm._v(" "),
-          _c("p", [_vm._v("Акциз по цене: " + _vm._s(_vm.akcizPrice) + "$")]),
-          _vm._v(" "),
-          _c("p", [
-            _vm._v(
-              "Акциз по объему двигателя: " + _vm._s(_vm.akcizEngine) + "$"
-            )
-          ]),
-          _vm._v(" "),
-          _c("p", [
-            _vm._v("Стоимость акциза для подсчета: " + _vm._s(_vm.akciz) + "$")
-          ]),
-          _vm._v(" "),
-          _c("p", [_vm._v("НДС: " + _vm._s(_vm.nds) + "$")]),
-          _vm._v(" "),
-          _c("p", [_vm._v("Процедура: " + _vm._s(_vm.procedure) + "$")]),
-          _vm._v(" "),
-          _c("p", [_c("b", [_vm._v("Всего: " + _vm._s(_vm.total) + "$")])]),
-          _vm._v(" "),
-          _c(
-            "button",
-            {
-              staticClass:
-                "mt-5 p-3 bg-blue-700 hover:bg-blue-800 text-white focus:outline-none rounded-lg",
-              attrs: { type: "button", name: "button" },
-              on: {
-                click: function($event) {
-                  return _vm.back()
+          _c("div", { staticClass: "text-center" }, [
+            _c(
+              "button",
+              {
+                staticClass:
+                  "w-full mt-5 p-3 bg-blue-700 hover:bg-blue-800 text-white focus:outline-none rounded-lg",
+                attrs: { type: "button", name: "button" },
+                on: {
+                  click: function($event) {
+                    return _vm.back()
+                  }
                 }
-              }
-            },
-            [_vm._v("НАЗАД")]
-          )
+              },
+              [_vm._v("НАЗАД")]
+            )
+          ])
         ])
       : _vm._e()
   ])
@@ -858,14 +881,26 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("p", [
+    return _c("p", { staticClass: "mt-6" }, [
       _vm._v("Стоимость ($) "),
       _c(
         "a",
-        { staticClass: "no-underline", attrs: { href: "растаможка.htm" } },
+        { staticClass: "text-gray-500", attrs: { href: "растаможка.htm" } },
         [_vm._v("найти")]
       )
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", [_c("b", [_vm._v("Информация о машине:")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", { staticClass: "mt-10" }, [_c("b", [_vm._v("Расходы:")])])
   }
 ]
 render._withStripped = true
@@ -13041,15 +13076,14 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
 /*!****************************************!*\
   !*** ./src/components/Application.vue ***!
   \****************************************/
-/*! no static exports found */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Application_vue_vue_type_template_id_b02fc960___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Application.vue?vue&type=template&id=b02fc960& */ "./src/components/Application.vue?vue&type=template&id=b02fc960&");
 /* harmony import */ var _Application_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Application.vue?vue&type=script&lang=js& */ "./src/components/Application.vue?vue&type=script&lang=js&");
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _Application_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _Application_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -13079,7 +13113,7 @@ component.options.__file = "src/components/Application.vue"
 /*!*****************************************************************!*\
   !*** ./src/components/Application.vue?vue&type=script&lang=js& ***!
   \*****************************************************************/
-/*! no static exports found */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
