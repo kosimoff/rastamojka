@@ -693,7 +693,7 @@ var render = function() {
   return _c("div", { staticClass: "p-10 text-center" }, [
     !_vm.result
       ? _c("div", {}, [
-          _c("p", [_vm._v("Стоимость ($):")]),
+          _vm._m(0),
           _vm._v(" "),
           _c("input", {
             directives: [
@@ -718,7 +718,7 @@ var render = function() {
             }
           }),
           _vm._v(" "),
-          _c("p", { staticClass: "mt-5" }, [_vm._v("Объем двиателя (d㎥):")]),
+          _c("p", { staticClass: "mt-5" }, [_vm._v("Объем двиателя (d㎥)")]),
           _vm._v(" "),
           _c("input", {
             directives: [
@@ -853,7 +853,21 @@ var render = function() {
       : _vm._e()
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", [
+      _vm._v("Стоимость ($) "),
+      _c(
+        "a",
+        { staticClass: "no-underline", attrs: { href: "растаможка.htm" } },
+        [_vm._v("найти")]
+      )
+    ])
+  }
+]
 render._withStripped = true
 
 
