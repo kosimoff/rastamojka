@@ -809,8 +809,8 @@ var render = function() {
           _vm._v(" "),
           _c("p", [
             _vm.sng
-              ? _c("span", [_vm._v("Из стран СНГ")])
-              : _c("span", [_vm._v("Не из стран СНГ")])
+              ? _c("span", [_vm._v("Из СНГ")])
+              : _c("span", [_vm._v("Не из СНГ")])
           ]),
           _vm._v(" "),
           _c("p", { staticClass: "mt-10" }, [
