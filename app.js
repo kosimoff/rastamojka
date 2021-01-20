@@ -134,6 +134,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Application",
   props: [],
@@ -704,7 +705,7 @@ var render = function() {
           "div",
           {
             staticClass:
-              "bg-blue-800 m-auto p-12 rounded-lg text-white text-center"
+              "bg-blue-800 m-auto p-12 rounded-lg text-white text-center shadow-2xl"
           },
           [
             _c("p", [_vm._v("РАСЧЕТ РАСТАМОЖКИ")]),
@@ -820,7 +821,7 @@ var render = function() {
     _vm._v(" "),
     _vm.result
       ? _c("div", { staticClass: "m-auto" }, [
-          _c("div", { staticClass: "bg-gray-100 p-8" }, [
+          _c("div", { staticClass: "bg-gray-100 p-8 shadow-2xl" }, [
             _vm._m(1),
             _vm._v(" "),
             _c("p", [_vm._v("Стоимость: " + _vm._s(_vm.price) + "$")]),
@@ -835,28 +836,35 @@ var render = function() {
                 : _c("span", [_vm._v("Не из СНГ")])
             ]),
             _vm._v(" "),
+            _c("p", [_vm._v("_______________")]),
+            _vm._v(" "),
             _vm._m(2),
             _vm._v(" "),
             _c("p", [_vm._v(_vm._s(_vm.poshlina) + "$ - пошлина")]),
             _vm._v(" "),
-            _c("p", [_vm._v(_vm._s(_vm.akcizPrice) + "$ - акциз по цене")]),
+            _c("span", [_vm._v(_vm._s(_vm.akcizPrice) + "$ - акциз по цене")]),
+            _vm.akcizEngine <= _vm.akcizPrice
+              ? _c("span", [_vm._v(" <")])
+              : _vm._e(),
+            _c("br"),
             _vm._v(" "),
-            _c("p", [
+            _c("span", [
               _vm._v(_vm._s(_vm.akcizEngine) + "$ - акциз по объему двигателя")
             ]),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v(_vm._s(_vm.akciz) + "$ - стоимость акциза для подсчета")
-            ]),
+            _vm.akcizEngine > _vm.akcizPrice
+              ? _c("span", [_vm._v(" <")])
+              : _vm._e(),
             _vm._v(" "),
             _c("p", [_vm._v(_vm._s(_vm.nds) + "$ - НДС")]),
             _vm._v(" "),
             _c("p", [_vm._v(_vm._s(_vm.procedure) + "$ - процедура")]),
             _vm._v(" "),
+            _c("p", [_vm._v("_______________")]),
+            _vm._v(" "),
             _c("p", [_c("b", [_vm._v("Всего: " + _vm._s(_vm.total) + "$")])])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "text-center" }, [
+          _c("div", { staticClass: "text-center shadow-2xl" }, [
             _c(
               "button",
               {
