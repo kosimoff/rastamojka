@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+  <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(71383423, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/71383423" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
   <link rel="stylesheet" href="app.css">
   <link rel="manifest" href="manifest.json?0.0.1">
   <link rel="shortcut icon" type="image/jpg" href=""/>
@@ -45,23 +62,23 @@
     document.getElementById('btn-install-app').style.display = "inline";
     document.getElementById('downloadandroidapp').style.display = "none";
     console.log('beforeinstallprompt initialized');
-    ym(71011222,'reachGoal','supportsPWA');
+    ym(71383423,'reachGoal','supportsPWA');
   });
 
   const btnInstallApp = document.getElementById('btn-install-app')
 
   if (btnInstallApp) {
     btnInstallApp.addEventListener('click', e => {
-      ym(71011222,'reachGoal','clickedPWA');
+      ym(71383423,'reachGoal','clickedPWA');
       deferredPrompt.prompt();
       deferredPrompt.userChoice
       .then(choiceResult => {
         if (choiceResult.outcome === 'accepted') {
           console.log('user accepted A2HS prompt');
-          ym(71011222,'reachGoal','acceptedPWA');
+          ym(71383423,'reachGoal','acceptedPWA');
         } else {
           console.log('user dismissed A2HS prompt');
-          ym(71011222,'reachGoal','cancelledPWA');
+          ym(71383423,'reachGoal','cancelledPWA');
         }
         deferredPrompt = null
       })
@@ -71,7 +88,7 @@
   //app installed
   window.addEventListener('appinstalled', e => {
     console.log('a2hs installed');
-    ym(71011222,'reachGoal','installedPWA');
+    ym(71383423,'reachGoal','installedPWA');
   });
 
   //show download app buttons if on android or ios and website is not opened in app mode (not installed)
@@ -84,6 +101,10 @@
   } //ios
 
 </script>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-600953f69c4c7486"></script>
+
 
 </body>
 </html>

@@ -17387,6 +17387,11 @@ __webpack_require__.r(__webpack_exports__);
         this.resultMarginLeft = this.resultMarginX;
       }
     },
+    aboutField: function aboutField() {
+      this.about = true;
+      this.price = false;
+      ym(71383423, 'reachGoal', 'aboutProject');
+    },
     makeSelect: function makeSelect() {
       this.models = [];
 
@@ -18293,7 +18298,7 @@ var render = function() {
           staticClass: "text-blue-500 cursor-pointer",
           on: {
             click: function($event) {
-              ;(_vm.about = true), (_vm.price = false)
+              return _vm.aboutField()
             }
           }
         },
