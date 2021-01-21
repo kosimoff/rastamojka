@@ -154,6 +154,37 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Application",
   props: [],
@@ -17246,7 +17277,6 @@ __webpack_require__.r(__webpack_exports__);
       selectedMake: null,
       selectedModel: null,
       year: '',
-      result: false,
       price: null,
       declarePrice: null,
       minimumPrice: null,
@@ -17284,20 +17314,80 @@ __webpack_require__.r(__webpack_exports__);
         max: Infinity,
         cost: 450
       }],
-      procedure: ''
+      procedure: '',
+      about: false,
+      window: {
+        width: 0,
+        height: 0
+      },
+      calcFont: false,
+      calcMarginTop: false,
+      calcMarginRight: false,
+      calcMarginBottom: false,
+      calcMarginLeft: false,
+      resultMarginTop: false,
+      resultMarginRight: false,
+      resultMarginBottom: false,
+      resultMarginLeft: false,
+      resultFont: false
     };
   },
   created: function created() {
     for (var i in this.tables) {
+      //get uniqueMakes
       for (var j in this.tables) {
         if (this.tables[i].Марка === this.tables[j].Марка && !this.uniqueMakes.includes(this.tables[j].Марка)) {
           this.uniqueMakes.push(this.tables[j].Марка);
         }
       }
     }
+
+    window.addEventListener('resize', this.handleResize);
+    this.handleResize();
+  },
+  destroyed: function destroyed() {
+    window.removeEventListener('resize', this.handleResize);
   },
   methods: {
-    makeChange: function makeChange() {
+    handleResize: function handleResize() {
+      this.window.width = window.innerWidth;
+      this.window.height = window.innerHeight;
+
+      if (this.window.height > this.window.width) {
+        //portrait
+        this.calcFont = this.window.width / 100 * 5 + 'px';
+        this.resultFont = this.window.width / 100 * 2.8 + 'px';
+        this.calcMarginX = this.window.width / 100 * 1 + 'px';
+        this.calcMarginY = this.window.width / 100 * 2 + 'px';
+        this.resultMarginX = this.window.width / 100 * 5 + 'px';
+        this.resultMarginY = this.window.width / 100 * 2 + 'px';
+        this.calcMarginTop = this.calcMarginY;
+        this.calcMarginBottom = this.calcMarginY;
+        this.calcMarginRight = this.calcMarginX;
+        this.calcMarginLeft = this.calcMarginX;
+        this.resultMarginTop = this.resultMarginY;
+        this.resultMarginBottom = this.resultMarginY;
+        this.resultMarginRight = this.resultMarginX;
+        this.resultMarginLeft = this.resultMarginX;
+      } else {
+        //landscape
+        this.calcFont = this.window.height / 100 * 5 + 'px';
+        this.resultFont = this.window.height / 100 * 2.7 + 'px';
+        this.calcMarginX = this.window.height / 100 * 10 + 'px';
+        this.calcMarginY = this.window.height / 100 * 2 + 'px';
+        this.resultMarginX = this.window.height / 100 * 13 + 'px';
+        this.resultMarginY = this.window.height / 100 * 2 + 'px';
+        this.calcMarginTop = this.calcMarginY;
+        this.calcMarginBottom = this.calcMarginY;
+        this.calcMarginRight = this.calcMarginX;
+        this.calcMarginLeft = this.calcMarginX;
+        this.resultMarginTop = this.resultMarginY;
+        this.resultMarginBottom = this.resultMarginY;
+        this.resultMarginRight = this.resultMarginX;
+        this.resultMarginLeft = this.resultMarginX;
+      }
+    },
+    makeSelect: function makeSelect() {
       this.models = [];
 
       for (var i in this.tables) {
@@ -17319,8 +17409,6 @@ __webpack_require__.r(__webpack_exports__);
           }
         }
       }
-
-      this.result = true;
 
       if (this.declarePrice > this.price) {
         this.price = this.declarePrice;
@@ -17350,9 +17438,6 @@ __webpack_require__.r(__webpack_exports__);
       }
 
       this.total = (this.poshlina + this.akciz + this.nds * 1 + this.procedure).toFixed(0);
-    },
-    back: function back() {
-      this.result = false;
     }
   }
 });
@@ -17842,36 +17927,98 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "flex p-5 content-center" }, [
-    !_vm.result
+  return _c("div", [
+    _vm._m(0),
+    _vm._v(" "),
+    !_vm.price && !_vm.about
       ? _c(
           "div",
           {
-            staticClass:
-              "bg-blue-800 m-auto p-12 rounded-lg text-white text-center shadow-2xl"
+            staticClass: "p-10 shadow-2xl bg-blue-800 rounded-lg",
+            style: [
+              { fontSize: _vm.calcFont },
+              { marginTop: _vm.calcMarginTop },
+              { marginRight: _vm.calcMarginRight },
+              { marginBottom: _vm.calcMarginBottom },
+              { marginLeft: _vm.calcMarginLeft }
+            ]
           },
           [
-            _c("p", [_vm._v("РАСЧЕТ РАСТАМОЖКИ")]),
-            _vm._v(" "),
-            _c("p", { staticClass: "mt-5" }, [_vm._v("Марка")]),
-            _vm._v(" "),
             _c(
-              "select",
+              "h1",
               {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.selectedMake,
-                    expression: "selectedMake"
+                staticClass: "font-bold text-white uppercase",
+                style: { fontSize: _vm.calcFont }
+              },
+              [_vm._v("Расчет Растаможки")]
+            ),
+            _vm._v(" "),
+            _c("form", { attrs: { onsubmit: "return false" } }, [
+              _c("p", { staticClass: "flex pt-5 text-white" }, [
+                _vm._v("Марка")
+              ]),
+              _vm._v(" "),
+              _c(
+                "select",
+                {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.selectedMake,
+                      expression: "selectedMake"
+                    }
+                  ],
+                  staticClass:
+                    "focus:bg-white focus:outline-none w-full rounded bg-gray-200",
+                  attrs: { required: "" },
+                  on: {
+                    change: [
+                      function($event) {
+                        var $$selectedVal = Array.prototype.filter
+                          .call($event.target.options, function(o) {
+                            return o.selected
+                          })
+                          .map(function(o) {
+                            var val = "_value" in o ? o._value : o.value
+                            return val
+                          })
+                        _vm.selectedMake = $event.target.multiple
+                          ? $$selectedVal
+                          : $$selectedVal[0]
+                      },
+                      function($event) {
+                        return _vm.makeSelect()
+                      }
+                    ]
                   }
-                ],
-                staticClass:
-                  "text-gray-700 m-auto w-1/2 focus:outline-none rounded",
-                attrs: { required: "" },
-                on: {
-                  change: [
-                    function($event) {
+                },
+                _vm._l(_vm.uniqueMakes, function(uniqueMake) {
+                  return _c("option", [_vm._v(_vm._s(uniqueMake))])
+                }),
+                0
+              ),
+              _vm._v(" "),
+              _c("p", { staticClass: "flex pt-5 text-white" }, [
+                _vm._v("Модель")
+              ]),
+              _vm._v(" "),
+              _c(
+                "select",
+                {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.selectedModel,
+                      expression: "selectedModel"
+                    }
+                  ],
+                  staticClass:
+                    "focus:bg-white focus:outline-none w-full rounded bg-gray-200",
+                  attrs: { required: "" },
+                  on: {
+                    change: function($event) {
                       var $$selectedVal = Array.prototype.filter
                         .call($event.target.options, function(o) {
                           return o.selected
@@ -17880,281 +18027,296 @@ var render = function() {
                           var val = "_value" in o ? o._value : o.value
                           return val
                         })
-                      _vm.selectedMake = $event.target.multiple
+                      _vm.selectedModel = $event.target.multiple
                         ? $$selectedVal
                         : $$selectedVal[0]
-                    },
-                    function($event) {
-                      return _vm.makeChange()
                     }
-                  ]
-                }
-              },
-              _vm._l(_vm.uniqueMakes, function(uniqueMake) {
-                return _c("option", [_vm._v(_vm._s(uniqueMake))])
-              }),
-              0
-            ),
-            _vm._v(" "),
-            _c("p", { staticClass: "mt-5" }, [_vm._v("Модель")]),
-            _vm._v(" "),
-            _c(
-              "select",
-              {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.selectedModel,
-                    expression: "selectedModel"
                   }
-                ],
-                staticClass:
-                  "text-gray-700 m-auto w-1/2 focus:outline-none rounded",
-                attrs: { required: "" },
-                on: {
-                  change: function($event) {
-                    var $$selectedVal = Array.prototype.filter
-                      .call($event.target.options, function(o) {
-                        return o.selected
-                      })
-                      .map(function(o) {
-                        var val = "_value" in o ? o._value : o.value
-                        return val
-                      })
-                    _vm.selectedModel = $event.target.multiple
-                      ? $$selectedVal
-                      : $$selectedVal[0]
-                  }
-                }
-              },
-              _vm._l(_vm.models, function(model) {
-                return _c("option", [_vm._v(_vm._s(model))])
-              }),
-              0
-            ),
-            _vm._v(" "),
-            _c("p", { staticClass: "mt-5" }, [_vm._v("Год выпуска")]),
-            _vm._v(" "),
-            _c("input", {
-              directives: [
-                {
-                  name: "model",
-                  rawName: "v-model",
-                  value: _vm.year,
-                  expression: "year"
-                }
-              ],
-              staticClass:
-                "text-gray-700 text-center border-blue-700 rounded-lg border focus:outline-none",
-              attrs: { type: "number" },
-              domProps: { value: _vm.year },
-              on: {
-                input: function($event) {
-                  if ($event.target.composing) {
-                    return
-                  }
-                  _vm.year = $event.target.value
-                }
-              }
-            }),
-            _vm._v(" "),
-            _c("p", { staticClass: "mt-6" }, [
-              _vm._v("Декларируемая стоимость ($)")
-            ]),
-            _vm._v(" "),
-            _c("input", {
-              directives: [
-                {
-                  name: "model",
-                  rawName: "v-model",
-                  value: _vm.declarePrice,
-                  expression: "declarePrice"
-                }
-              ],
-              staticClass:
-                "text-gray-700 text-center border-blue-700 rounded-lg border focus:outline-none",
-              attrs: { type: "number" },
-              domProps: { value: _vm.declarePrice },
-              on: {
-                input: function($event) {
-                  if ($event.target.composing) {
-                    return
-                  }
-                  _vm.declarePrice = $event.target.value
-                }
-              }
-            }),
-            _vm._v(" "),
-            _c("p", { staticClass: "mt-5" }, [_vm._v("Объем двиателя (дм³)")]),
-            _vm._v(" "),
-            _c("input", {
-              directives: [
-                {
-                  name: "model",
-                  rawName: "v-model",
-                  value: _vm.engineCapacity,
-                  expression: "engineCapacity"
-                }
-              ],
-              staticClass:
-                "text-gray-700 text-center border-blue-700 rounded-lg border focus:outline-none",
-              attrs: { type: "number" },
-              domProps: { value: _vm.engineCapacity },
-              on: {
-                input: function($event) {
-                  if ($event.target.composing) {
-                    return
-                  }
-                  _vm.engineCapacity = $event.target.value
-                }
-              }
-            }),
-            _vm._v(" "),
-            _c("p", { staticClass: "mt-5" }, [
+                },
+                _vm._l(_vm.models, function(model) {
+                  return _c("option", [_vm._v(_vm._s(model))])
+                }),
+                0
+              ),
+              _vm._v(" "),
+              _c("p", { staticClass: "flex pt-5 text-white" }, [
+                _vm._v("Год выпуска")
+              ]),
+              _vm._v(" "),
               _c("input", {
                 directives: [
                   {
                     name: "model",
                     rawName: "v-model",
-                    value: _vm.sng,
-                    expression: "sng"
+                    value: _vm.year,
+                    expression: "year"
                   }
                 ],
-                attrs: { type: "checkbox", name: "", value: "" },
-                domProps: {
-                  checked: Array.isArray(_vm.sng)
-                    ? _vm._i(_vm.sng, "") > -1
-                    : _vm.sng
-                },
+                staticClass:
+                  "pl-2 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
+                attrs: { type: "number", required: "" },
+                domProps: { value: _vm.year },
                 on: {
-                  change: function($event) {
-                    var $$a = _vm.sng,
-                      $$el = $event.target,
-                      $$c = $$el.checked ? true : false
-                    if (Array.isArray($$a)) {
-                      var $$v = "",
-                        $$i = _vm._i($$a, $$v)
-                      if ($$el.checked) {
-                        $$i < 0 && (_vm.sng = $$a.concat([$$v]))
-                      } else {
-                        $$i > -1 &&
-                          (_vm.sng = $$a
-                            .slice(0, $$i)
-                            .concat($$a.slice($$i + 1)))
-                      }
-                    } else {
-                      _vm.sng = $$c
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
                     }
+                    _vm.year = $event.target.value
                   }
                 }
               }),
-              _vm._v(" из СНГ")
-            ]),
-            _vm._v(" "),
-            _c(
-              "button",
-              {
+              _vm._v(" "),
+              _c("p", { staticClass: "flex pt-5 text-white" }, [
+                _vm._v("Объем двиателя (дм³)")
+              ]),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.engineCapacity,
+                    expression: "engineCapacity"
+                  }
+                ],
                 staticClass:
-                  "mt-5 px-8 py-2 bg-red-800 hover:bg-red-900 focus:outline-none rounded-lg",
-                attrs: { type: "button", name: "button" },
+                  "pl-2 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
+                attrs: { type: "number", required: "" },
+                domProps: { value: _vm.engineCapacity },
                 on: {
-                  click: function($event) {
-                    return _vm.calculate()
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.engineCapacity = $event.target.value
                   }
                 }
-              },
-              [_vm._v("ПОДСЧИТАТЬ")]
-            )
+              }),
+              _vm._v(" "),
+              _c("p", { staticClass: "pt-5 text-white" }, [
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.sng,
+                      expression: "sng"
+                    }
+                  ],
+                  attrs: { type: "checkbox", name: "", value: "" },
+                  domProps: {
+                    checked: Array.isArray(_vm.sng)
+                      ? _vm._i(_vm.sng, "") > -1
+                      : _vm.sng
+                  },
+                  on: {
+                    change: function($event) {
+                      var $$a = _vm.sng,
+                        $$el = $event.target,
+                        $$c = $$el.checked ? true : false
+                      if (Array.isArray($$a)) {
+                        var $$v = "",
+                          $$i = _vm._i($$a, $$v)
+                        if ($$el.checked) {
+                          $$i < 0 && (_vm.sng = $$a.concat([$$v]))
+                        } else {
+                          $$i > -1 &&
+                            (_vm.sng = $$a
+                              .slice(0, $$i)
+                              .concat($$a.slice($$i + 1)))
+                        }
+                      } else {
+                        _vm.sng = $$c
+                      }
+                    }
+                  }
+                }),
+                _vm._v(" из СНГ")
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "pt-5" }, [
+                _c("input", {
+                  staticClass:
+                    "focus:outline-none focus:bg-blue-700 bg-red-800 hover:bg-red-900 w-full text-white p-2 rounded",
+                  attrs: { type: "submit", value: "Подсчитать" },
+                  on: {
+                    click: function($event) {
+                      return _vm.calculate()
+                    }
+                  }
+                })
+              ])
+            ])
           ]
         )
       : _vm._e(),
     _vm._v(" "),
-    _vm.result
-      ? _c("div", { staticClass: "m-auto" }, [
-          _c("div", { staticClass: "bg-gray-100 p-8 shadow-2xl" }, [
-            _vm._m(0),
-            _vm._v(" "),
-            _c("p", [_vm._v("Марка: " + _vm._s(_vm.selectedMake))]),
-            _vm._v(" "),
-            _c("p", [_vm._v("Модель: " + _vm._s(_vm.selectedModel))]),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v(
-                "Декларируемая стоимость: " + _vm._s(_vm.declarePrice) + "$"
-              )
+    _vm.price
+      ? _c(
+          "div",
+          {
+            style: [
+              { fontSize: _vm.resultFont },
+              { marginTop: _vm.resultMarginTop },
+              { marginRight: _vm.resultMarginRight },
+              { marginBottom: _vm.resultMarginBottom },
+              { marginLeft: _vm.resultMarginLeft }
+            ]
+          },
+          [
+            _c("div", { staticClass: "bg-white p-5 shadow-2xl" }, [
+              _vm._m(1),
+              _vm._v(" "),
+              _c("p", [_vm._v("Марка: " + _vm._s(_vm.selectedMake))]),
+              _vm._v(" "),
+              _c("p", [_vm._v("Модель: " + _vm._s(_vm.selectedModel))]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Расчет исходя от минимальной стоимости: " +
+                    _vm._s(_vm.minimumPrice) +
+                    "$"
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v("Объем двигателя: " + _vm._s(_vm.engineCapacity) + "дм³")
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm.sng
+                  ? _c("span", [_vm._v("Из СНГ")])
+                  : _c("span", [_vm._v("Не из СНГ")])
+              ]),
+              _vm._v(" "),
+              _c("p", [_vm._v("_______________")]),
+              _vm._v(" "),
+              _vm._m(2),
+              _vm._v(" "),
+              _c("p", [_vm._v(_vm._s(_vm.poshlina) + "$ - пошлина")]),
+              _vm._v(" "),
+              _c("span", [
+                _vm._v(_vm._s(_vm.akcizPrice) + "$ - акциз по цене")
+              ]),
+              _vm.akcizEngine <= _vm.akcizPrice
+                ? _c("span", [_vm._v(" <")])
+                : _vm._e(),
+              _c("br"),
+              _vm._v(" "),
+              _c("span", [
+                _vm._v(
+                  _vm._s(_vm.akcizEngine) + "$ - акциз по объему двигателя"
+                )
+              ]),
+              _vm.akcizEngine > _vm.akcizPrice
+                ? _c("span", [_vm._v(" <")])
+                : _vm._e(),
+              _vm._v(" "),
+              _c("p", [_vm._v(_vm._s(_vm.nds) + "$ - НДС")]),
+              _vm._v(" "),
+              _c("p", [_vm._v(_vm._s(_vm.procedure) + "$ - процедура")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("_______________")]),
+              _vm._v(" "),
+              _c("p", [_c("b", [_vm._v("Всего: " + _vm._s(_vm.total) + "$")])])
             ]),
             _vm._v(" "),
-            _c("p", [
-              _vm._v("Минимальная стоимость: " + _vm._s(_vm.minimumPrice) + "$")
-            ]),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v("Объем двигателя: " + _vm._s(_vm.engineCapacity) + "дм³")
-            ]),
-            _vm._v(" "),
-            _c("p", [
-              _vm.sng
-                ? _c("span", [_vm._v("Из СНГ")])
-                : _c("span", [_vm._v("Не из СНГ")])
-            ]),
-            _vm._v(" "),
-            _c("p", [_vm._v("_______________")]),
-            _vm._v(" "),
-            _vm._m(1),
-            _vm._v(" "),
-            _c("p", [_vm._v(_vm._s(_vm.poshlina) + "$ - пошлина")]),
-            _vm._v(" "),
-            _c("span", [_vm._v(_vm._s(_vm.akcizPrice) + "$ - акциз по цене")]),
-            _vm.akcizEngine <= _vm.akcizPrice
-              ? _c("span", [_vm._v(" <")])
-              : _vm._e(),
-            _c("br"),
-            _vm._v(" "),
-            _c("span", [
-              _vm._v(_vm._s(_vm.akcizEngine) + "$ - акциз по объему двигателя")
-            ]),
-            _vm.akcizEngine > _vm.akcizPrice
-              ? _c("span", [_vm._v(" <")])
-              : _vm._e(),
-            _vm._v(" "),
-            _c("p", [_vm._v(_vm._s(_vm.nds) + "$ - НДС")]),
-            _vm._v(" "),
-            _c("p", [_vm._v(_vm._s(_vm.procedure) + "$ - процедура")]),
-            _vm._v(" "),
-            _c("p", [_vm._v("_______________")]),
-            _vm._v(" "),
-            _c("p", [_c("b", [_vm._v("Всего: " + _vm._s(_vm.total) + "$")])]),
-            _vm._v(" "),
-            _vm.declarePrice > _vm.minimumPrice
-              ? _c("p", [
-                  _c("b", [_vm._v("Внимание! ")]),
-                  _vm._v("Декларуемая стоимость выше минимальной стоимости")
-                ])
-              : _vm._e()
+            _c("input", {
+              staticClass:
+                "bg-blue-800 hover:bg-blue-900 shadow-2xl w-full text-white p-2 mt-4 rounded",
+              attrs: { type: "submit", value: "Назад" },
+              on: {
+                click: function($event) {
+                  _vm.price = false
+                }
+              }
+            })
+          ]
+        )
+      : _vm._e(),
+    _vm._v(" "),
+    _vm.about
+      ? _c("div", { staticClass: "p-10 text-gray-700" }, [
+          _vm._m(3),
+          _vm._v(" "),
+          _c("p", { staticClass: "pt-5" }, [
+            _vm._v(
+              "Этот сайт создан программистами- энтузиастами, в помощь наших граждан."
+            )
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "text-center shadow-2xl" }, [
-            _c(
-              "button",
-              {
-                staticClass:
-                  "w-full mt-5 p-3 bg-blue-700 hover:bg-blue-800 text-white focus:outline-none rounded-lg",
-                attrs: { type: "button", name: "button" },
-                on: {
-                  click: function($event) {
-                    return _vm.back()
-                  }
-                }
-              },
-              [_vm._v("НАЗАД")]
+          _c("p", [
+            _vm._v("Вся информация на сайте носит ознакомительный характер.")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "pt-5" }, [
+            _vm._v(
+              "Пожалуйста, поддержите проект. Это можно сделать несколькими способами:"
             )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v("-поделитесь сайтом в социальных сетях и мессенджерах.")
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "-расскажите нам свое мнение, свои предложения, идею, и об ошибках сайта."
+            )
+          ]),
+          _vm._v(" "),
+          _vm._m(4),
+          _vm._v(" "),
+          _c("p", { staticClass: "pt-5" }, [
+            _vm._v("Мы будем рады любому вашему вкладу. Спасибо!")
           ])
         ])
-      : _vm._e()
+      : _vm._e(),
+    _vm._v(" "),
+    _c("div", { staticClass: "pb-5 text-center" }, [
+      _c(
+        "span",
+        {
+          staticClass: "text-blue-500 cursor-pointer",
+          on: {
+            click: function($event) {
+              ;(_vm.price = false), (_vm.about = false)
+            }
+          }
+        },
+        [_vm._v("Главная")]
+      ),
+      _c("span", { staticClass: "text-black" }, [_vm._v(" | ")]),
+      _c(
+        "span",
+        {
+          staticClass: "text-blue-500 cursor-pointer",
+          on: {
+            click: function($event) {
+              ;(_vm.about = true), (_vm.price = false)
+            }
+          }
+        },
+        [_vm._v("О проекте")]
+      ),
+      _vm._m(5)
+    ]),
+    _vm._v(" "),
+    _vm._m(6)
   ])
 }
 var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("a", { attrs: { href: "./" } }, [
+      _c("img", {
+        staticClass: "w-1/2 m-auto",
+        attrs: { src: "images/logo.png", alt: "TEXOSMOTR.TJ" }
+      })
+    ])
+  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -18166,6 +18328,71 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("p", { staticClass: "mt-10" }, [_c("b", [_vm._v("Расходы:")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "uppercase" }, [
+      _c("b", [_vm._v("О проекте")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", { staticClass: "mt-5" }, [
+      _vm._v("Эл. почта: "),
+      _c("a", { attrs: { href: "mailto:info@rastamojka.tj" } }, [
+        _vm._v("info@rastamojka.tj")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "span",
+      {
+        staticClass: "text-blue-500 cursor-pointer",
+        staticStyle: { display: "none" },
+        attrs: { id: "btn-install-app" }
+      },
+      [
+        _c("span", { staticClass: "text-black" }, [_vm._v(" | ")]),
+        _vm._v("Установить")
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticStyle: { display: "none" }, attrs: { id: "downloadandroidapp" } },
+      [
+        _c(
+          "a",
+          {
+            attrs: {
+              href:
+                "https://github.com/kosimoff/rastamojka/releases/download/1.0.0/RASTAMOJKA.TJ.apk"
+            }
+          },
+          [
+            _c("img", {
+              staticClass: "pb-5 w-1/6 m-auto",
+              attrs: {
+                src: "images/downloadforandroid.png",
+                alt: "Скачать приложение для Android"
+              }
+            })
+          ]
+        )
+      ]
+    )
   }
 ]
 render._withStripped = true

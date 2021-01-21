@@ -1,19 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="app.css">
-    <link rel="manifest" href="manifest.json?0.0.3">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Растаможка РТ</title>
+  <link rel="stylesheet" href="app.css">
+  <link rel="manifest" href="manifest.json?0.0.1">
+  <link rel="shortcut icon" type="image/jpg" href=""/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="RASTAMOJKA.TJ">
+  <title>Расчет растаможки авто в Таджикистане</title>
+  <meta name="keywords" content="Растаможка Таджикистан, растаможка тч, растаможка.тч">
 </head>
 
-<body>
-<div id="app">
+<body class="bg-gray-100 flex justify-center">
+  <div id="app" class="justify-center">
     <application></application>
-</div>
+  </div>
 
-<script src="app.js?0.0.1"></script>
+  <script src="app.js?0.0.2"></script>
+
+  <script type="text/javascript">
+
+  //register service worker
+  if ('serviceWorker' in navigator) {
+    console.log("Will the service worker register?");
+    navigator.serviceWorker.register('service-worker.js')
+    .then(function (reg) {
+      console.log("Yes, it did.");
+    }).catch(function (err) {
+      console.log("No it didn't. This happened:", err)
+    });
+  }
+
+  //show 'add to home' screen install button if supported
+  let deferredPrompt;
+
+  window.addEventListener('beforeinstallprompt', e => {
+    e.preventDefault();
+    deferredPrompt = e;
+    document.getElementById('btn-install-app').style.display = "inline";
+    document.getElementById('downloadandroidapp').style.display = "none";
+    console.log('beforeinstallprompt initialized');
+    ym(71011222,'reachGoal','supportsPWA');
+  });
+
+  const btnInstallApp = document.getElementById('btn-install-app')
+
+  if (btnInstallApp) {
+    btnInstallApp.addEventListener('click', e => {
+      ym(71011222,'reachGoal','clickedPWA');
+      deferredPrompt.prompt();
+      deferredPrompt.userChoice
+      .then(choiceResult => {
+        if (choiceResult.outcome === 'accepted') {
+          console.log('user accepted A2HS prompt');
+          ym(71011222,'reachGoal','acceptedPWA');
+        } else {
+          console.log('user dismissed A2HS prompt');
+          ym(71011222,'reachGoal','cancelledPWA');
+        }
+        deferredPrompt = null
+      })
+    })
+  }
+
+  //app installed
+  window.addEventListener('appinstalled', e => {
+    console.log('a2hs installed');
+    ym(71011222,'reachGoal','installedPWA');
+  });
+
+  //show download app buttons if on android or ios and website is not opened in app mode (not installed)
+  if ((!window.matchMedia('(display-mode: standalone)').matches) && (/(android)/i.test(navigator.userAgent))) {
+    document.getElementById('downloadandroidapp').style.display = "block";
+  } //android
+
+  else if (('standalone' in window.navigator) && (!window.navigator.standalone) && (/iPad|iPhone|iPod/.test(navigator.userAgent))) {
+
+  } //ios
+
+</script>
 
 </body>
 </html>
