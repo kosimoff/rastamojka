@@ -197,6 +197,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Application",
   props: [],
@@ -17286,11 +17291,12 @@ __webpack_require__.r(__webpack_exports__);
       }],
       countries: ['Австралия', 'Австрия', 'Азербайджан', 'Албания', 'Алжир', 'Ангилья', 'Ангола', 'Андорра', 'Антигуа и Барбуда', 'Аргентина', 'Армения', 'Аруба', 'Афганистан', 'Багамские Острова', 'Бангладеш', 'Барбадос', 'Бахрейн', 'Белиз', 'Белоруссия', 'Бельгия', 'Бенин', 'Бермуды', 'Бирма (Мьянма)', 'Болгария', 'Боливия', 'Босния и Герцеговина', 'Ботсвана', 'Бразилия', 'Бруней', 'Буркина-Фасо', 'Бурунди', 'Бутан', 'Вануату', 'Великобритания', 'Венгрия', 'Венесуэла', 'Виргинские острова Америка', 'Виргинские острова', 'Восточный Тимор', 'Вьетнам', 'Габон', 'Гаити', 'Гайана', 'Гамбия', 'Гана', 'Гваделупа', 'Гватемала', 'Гвинея-Бисау', 'Гвинея', 'Германия', 'Гибралтар', 'Гондурас', 'Гренада', 'Гренландия', 'Греция', 'Грузия', 'Гуам', 'Дания', 'Демократическая Республика Конго', 'Джибути', 'Джонстон (атолл)', 'Доминика', 'Доминиканская Республика', 'Египет ', 'Замбия', 'Зимбабве', 'Израиль', 'Индия', 'Индонезия', 'Иордания', 'Ирак', 'Иран', 'Ирландия', 'Исландия', 'Испания', 'Италия', 'Йемен', 'Кабо-Верде', 'Казахстан', 'Каймановы острова', 'Камбоджа', 'Камерун', 'Канада', 'Канарские острова', 'Катар', 'Кения', 'Кипр', 'Кирибати', 'Китай', 'Колумбия', 'Коморы', 'Конго', 'Корейская Народно-Демократическая Республика', 'Косово', 'Коста-Рика', 'Кот-д’Ивуар', 'Куба', 'Кувейт', 'Кыргызстан', 'Лаос', 'Латвия', 'Лесото', 'Либерия', 'Ливан', 'Ливия', 'Литва', 'Лихтенштейн', 'Люксембург', 'Маврикий', 'Мавритания', 'Мадагаскар', 'Майотта', 'Макао', 'Малави', 'Малайзия', 'Мали', 'Мальдивы', 'Мальта', 'Марокко', 'Мартиника', 'Маршалловы Острова', 'Мексика', 'Мидуэй', 'Мозамбик', 'Молдавия', 'Монако', 'Монголия', 'Монтсеррат', 'Намибия', 'Науру', 'Непал', 'Нигер', 'Нигерия', 'Нидерландские Антильские острова', 'Нидерланды', 'Никарагуа', 'Ниуэ', 'Новая Зеландия', 'Новая Каледония', 'Норвегия', 'Объединённые Арабские Эмираты', 'Оман', 'Остров Рождества', 'Остров Святой Елены', 'Пакистан', 'Палау', 'Палестина', 'Пальмира', 'Панама', 'Папуа — Новая Гвинея', 'Парагвай', 'Перу', 'Польша', 'Португалия', 'Пуэрто-Рико', 'Республика Корея', 'Республика Македония', 'Реюньон', 'Российская Федерация', 'Руанда', 'Румыния', 'Сальвадор', 'Самоа', 'Самоа', 'Сан-Марино', 'Сан-Томе и Принсипи', 'Саудовская Аравия', 'Свазиленд', 'Северная Ирландия', 'Северные Марианские острова', 'Сейшельские Острова', 'Сен-Мартен', 'Сен-Пьер и Микелон', 'Сенегал', 'Сент-Винсент и Гренадины', 'Сент-Китс и Невис', 'Сент-Люсия', 'Сербия', 'Сингапур', 'Сирия', 'Словакия', 'Словения', 'Соломоновы Острова', 'Сомали', 'Судан', 'Суринам', 'США', 'Сьерра-Леоне', 'Таджикистан', 'Таиланд', 'Тайвань', 'Танзания', 'Теркс и Кайкос', 'Того', 'Тонга', 'Тринидад и Тобаго', 'Тувалу', 'Тунис', 'Турецкая Республика Северного Кипра', 'Туркмения', 'Турция', 'Уганда', 'Узбекистан', 'Украина', 'Уоллис и Футуна', 'Уругвай', 'Уэйк', 'Уэльс', 'Федеративные Штаты Микронезии', 'Фиджи', 'Филиппины', 'Финляндия', 'Фолклендские острова', 'Франция', 'Французская Гвиана', 'Французская Полинезия', 'Французские Южные и Антарктические Территории', 'Хорватия', 'Центральноафриканская Республика', 'Чад', 'Черногория', 'Чехия', 'Чили', 'Швейцария', 'Швеция', 'Шпицберген и Ян-Майен', 'Шри-Ланка', 'Эквадор', 'Экваториальная Гвинея', 'Эритрея', 'Эстония', 'Эфиопия', 'Южная Георгия и Южные Сандвичевы острова', 'Южно-Африканская Республика', 'Ямайка', 'Япония'],
       sngCountries: ['Азербайджан', 'Армения', 'Белоруссия', 'Казахстан', 'Кыргызстан', 'Молдавия', 'Российская Федерация', 'Таджикистан', 'Туркмения', 'Узбекистан', 'Украина'],
-      selectedCountry: false,
+      selectedCountry: null,
       uniqueMakes: [],
       models: [],
       selectedMake: null,
       selectedModel: null,
+      years: [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021],
       year: '',
       price: null,
       declarePrice: null,
@@ -17330,6 +17336,7 @@ __webpack_require__.r(__webpack_exports__);
       }],
       procedure: '',
       about: false,
+      makeFault: false,
       window: {
         width: 0,
         height: 0
@@ -17417,49 +17424,57 @@ __webpack_require__.r(__webpack_exports__);
 
       this.models = this.models.sort();
     },
+    showMakeFault: function showMakeFault() {
+      if (!this.selectedMake) {
+        this.makeFault = true;
+      }
+    },
     calculate: function calculate() {
-      for (var i in this.tables) {
-        if (this.tables[i].Модель === this.selectedModel) {
-          for (var j in this.tables[i]) {
-            if (j === this.year) {
-              this.price = this.tables[i][j];
-              this.minimumPrice = this.tables[i][j];
+      this.makeFault = false;
+
+      if (this.engineCapacity && this.selectedCountry) {
+        for (var i in this.tables) {
+          if (this.tables[i].Модель === this.selectedModel) {
+            for (var j in this.tables[i]) {
+              if (j === this.year) {
+                this.price = this.tables[i][j];
+                this.minimumPrice = this.tables[i][j];
+              }
             }
           }
         }
-      }
 
-      if (this.declarePrice > this.price) {
-        this.price = this.declarePrice;
-      }
+        for (var i in this.sngCountries) {
+          //check for CIS country
+          if (this.sngCountries[i] === this.selectedCountry) {
+            this.poshlina = 0;
+            break;
+          } else {
+            this.poshlina = this.price * this.poshlinaRate / 100 * 1;
+          }
+        }
 
-      for (var i in this.sngCountries) {
-        if (this.sngCountries[i] === this.selectedCountry) {
-          this.poshlina = 0;
-          break;
+        this.akcizPrice = (this.price * 1 + this.poshlina * 1) * this.akcizPriceRate / 100 * 1;
+        this.akcizEngine = this.engineCapacity * 1000 * this.akcizEngineRate * this.exchangeRate;
+
+        if (this.akcizPrice > this.akcizEngine) {
+          //akciz switch
+          this.akciz = this.akcizPrice;
         } else {
-          this.poshlina = this.price * this.poshlinaRate / 100 * 1;
+          this.akciz = this.akcizEngine;
         }
-      }
 
-      this.akcizPrice = (this.price * 1 + this.poshlina * 1) * this.akcizPriceRate / 100 * 1;
-      this.akcizEngine = this.engineCapacity * 1000 * this.akcizEngineRate * this.exchangeRate;
+        this.nds = ((this.price * 1 + this.poshlina * 1 + this.akciz * 1) * this.ndsRate / 100).toFixed(0); //nds
 
-      if (this.akcizPrice > this.akcizEngine) {
-        this.akciz = this.akcizPrice;
-      } else {
-        this.akciz = this.akcizEngine;
-      }
-
-      this.nds = ((this.price * 1 + this.poshlina * 1 + this.akciz * 1) * this.ndsRate / 100).toFixed(0);
-
-      for (var _i = 0; _i < this.procedurePrice.length; _i++) {
-        if (this.price >= this.procedurePrice[_i].min && this.price <= this.procedurePrice[_i].max) {
-          this.procedure = this.procedurePrice[_i].cost;
+        for (var _i = 0; _i < this.procedurePrice.length; _i++) {
+          //get procedure
+          if (this.price >= this.procedurePrice[_i].min && this.price <= this.procedurePrice[_i].max) {
+            this.procedure = this.procedurePrice[_i].cost;
+          }
         }
-      }
 
-      this.total = (this.poshlina + this.akciz + this.nds * 1 + this.procedure).toFixed(0);
+        this.total = (this.poshlina + this.akciz + this.nds * 1 + this.procedure).toFixed(0); //total
+      }
     }
   }
 });
@@ -17992,7 +18007,7 @@ var render = function() {
                     }
                   ],
                   staticClass:
-                    "focus:bg-white focus:outline-none w-full rounded bg-gray-200",
+                    "text-gray-700 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
                   attrs: { required: "" },
                   on: {
                     change: [
@@ -18012,7 +18027,10 @@ var render = function() {
                       function($event) {
                         return _vm.makeSelect()
                       }
-                    ]
+                    ],
+                    click: function($event) {
+                      _vm.makeFault = false
+                    }
                   }
                 },
                 _vm._l(_vm.uniqueMakes, function(uniqueMake) {
@@ -18020,6 +18038,14 @@ var render = function() {
                 }),
                 0
               ),
+              _vm._v(" "),
+              _vm.makeFault
+                ? _c("div", { staticClass: "text-sm text-white" }, [
+                    _vm._v(
+                      "\n        Пожалуйста, сначала выберите марку\n      "
+                    )
+                  ])
+                : _vm._e(),
               _vm._v(" "),
               _c("p", { staticClass: "flex pt-5 text-white" }, [
                 _vm._v("Модель")
@@ -18037,9 +18063,12 @@ var render = function() {
                     }
                   ],
                   staticClass:
-                    "focus:bg-white focus:outline-none w-full rounded bg-gray-200",
+                    "text-gray-700 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
                   attrs: { required: "" },
                   on: {
+                    click: function($event) {
+                      return _vm.showMakeFault()
+                    },
                     change: function($event) {
                       var $$selectedVal = Array.prototype.filter
                         .call($event.target.options, function(o) {
@@ -18065,28 +18094,44 @@ var render = function() {
                 _vm._v("Год выпуска")
               ]),
               _vm._v(" "),
-              _c("input", {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.year,
-                    expression: "year"
-                  }
-                ],
-                staticClass:
-                  "pl-2 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
-                attrs: { type: "number", required: "" },
-                domProps: { value: _vm.year },
-                on: {
-                  input: function($event) {
-                    if ($event.target.composing) {
-                      return
+              _c(
+                "select",
+                {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.year,
+                      expression: "year"
                     }
-                    _vm.year = $event.target.value
+                  ],
+                  staticClass:
+                    "text-gray-700 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
+                  attrs: { required: "" },
+                  on: {
+                    click: function($event) {
+                      _vm.makeFault = false
+                    },
+                    change: function($event) {
+                      var $$selectedVal = Array.prototype.filter
+                        .call($event.target.options, function(o) {
+                          return o.selected
+                        })
+                        .map(function(o) {
+                          var val = "_value" in o ? o._value : o.value
+                          return val
+                        })
+                      _vm.year = $event.target.multiple
+                        ? $$selectedVal
+                        : $$selectedVal[0]
+                    }
                   }
-                }
-              }),
+                },
+                _vm._l(_vm.years, function(year) {
+                  return _c("option", [_vm._v(_vm._s(year))])
+                }),
+                0
+              ),
               _vm._v(" "),
               _c("p", { staticClass: "flex pt-5 text-white" }, [
                 _vm._v("Объем двиателя (дм³)")
@@ -18102,10 +18147,13 @@ var render = function() {
                   }
                 ],
                 staticClass:
-                  "pl-2 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
-                attrs: { type: "number", required: "" },
+                  "text-gray-700 pl-2 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
+                attrs: { type: "number", step: "0.1", required: "" },
                 domProps: { value: _vm.engineCapacity },
                 on: {
+                  click: function($event) {
+                    _vm.makeFault = false
+                  },
                   input: function($event) {
                     if ($event.target.composing) {
                       return
@@ -18131,9 +18179,12 @@ var render = function() {
                     }
                   ],
                   staticClass:
-                    "focus:bg-white focus:outline-none w-full rounded bg-gray-200",
+                    "text-gray-700 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
                   attrs: { required: "" },
                   on: {
+                    click: function($event) {
+                      _vm.makeFault = false
+                    },
                     change: function($event) {
                       var $$selectedVal = Array.prototype.filter
                         .call($event.target.options, function(o) {
@@ -18330,7 +18381,7 @@ var render = function() {
           staticClass: "text-blue-500 cursor-pointer",
           on: {
             click: function($event) {
-              ;(_vm.price = false), (_vm.about = false)
+              ;(_vm.price = false), (_vm.about = false), (_vm.makeFault = false)
             }
           }
         },
