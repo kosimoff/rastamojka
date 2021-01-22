@@ -202,6 +202,54 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "Application",
   props: [],
@@ -17547,6 +17595,7 @@ __webpack_require__.r(__webpack_exports__);
       }],
       procedure: '',
       about: false,
+      agents: false,
       makeFault: false,
       window: {
         width: 0,
@@ -17619,10 +17668,22 @@ __webpack_require__.r(__webpack_exports__);
         this.resultMarginLeft = this.resultMarginX;
       }
     },
+    calculatorField: function calculatorField() {
+      this.price = false;
+      this.about = false;
+      this.makeFault = false;
+      this.agents = false;
+    },
     aboutField: function aboutField() {
       this.about = true;
       this.price = false;
+      this.agents = false;
       ym(71383423, 'reachGoal', 'aboutProject');
+    },
+    agentsField: function agentsField() {
+      this.about = false;
+      this.price = false;
+      this.agents = true;
     },
     makeSelect: function makeSelect() {
       this.models = [];
@@ -18186,7 +18247,7 @@ var render = function() {
   return _c("div", [
     _vm._m(0),
     _vm._v(" "),
-    !_vm.price && !_vm.about
+    !_vm.price && !_vm.about && !_vm.agents
       ? _c(
           "div",
           {
@@ -18593,6 +18654,26 @@ var render = function() {
         ])
       : _vm._e(),
     _vm._v(" "),
+    _vm.agents
+      ? _c("div", { staticClass: "p-10 text-gray-700" }, [
+          _vm._m(5),
+          _vm._v(" "),
+          _c("p", { staticClass: "mt-5" }, [
+            _vm._v(
+              "Здесь представлены список представителей, занимающиеся поиском, покупкой и отправкой машин в Таджикистан"
+            )
+          ]),
+          _vm._v(" "),
+          _vm._m(6),
+          _vm._v(" "),
+          _vm._m(7),
+          _vm._v(" "),
+          _vm._m(8),
+          _vm._v(" "),
+          _vm._m(9)
+        ])
+      : _vm._e(),
+    _vm._v(" "),
     _c("div", { staticClass: "pb-5 text-center" }, [
       _c(
         "span",
@@ -18600,13 +18681,14 @@ var render = function() {
           staticClass: "text-blue-500 cursor-pointer",
           on: {
             click: function($event) {
-              ;(_vm.price = false), (_vm.about = false), (_vm.makeFault = false)
+              return _vm.calculatorField()
             }
           }
         },
         [_vm._v("Главная")]
       ),
       _c("span", { staticClass: "text-black" }, [_vm._v(" | ")]),
+      _vm._v(" "),
       _c(
         "span",
         {
@@ -18619,11 +18701,12 @@ var render = function() {
         },
         [_vm._v("О проекте")]
       ),
-      _vm._m(5),
-      _vm._m(6)
+      _vm._m(10),
+      _vm._v(" "),
+      _vm._m(11)
     ]),
     _vm._v(" "),
-    _vm._m(7)
+    _vm._m(12)
   ])
 }
 var staticRenderFns = [
@@ -18631,9 +18714,9 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("a", { attrs: { href: "./" } }, [
+    return _c("a", { attrs: { href: "./index.html" } }, [
       _c("img", {
-        staticClass: "w-1/2 m-auto",
+        staticClass: "mx-auto my-5",
         attrs: { src: "images/logo.png", alt: "TEXOSMOTR.TJ" }
       })
     ])
@@ -18673,8 +18756,81 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "uppercase" }, [
+      _c("b", [_vm._v("Представители")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "mt-10 flex" }, [
+      _c("img", { staticClass: "w-24", attrs: { src: "images/avatar.png" } }),
+      _vm._v(" "),
+      _c("div", { staticClass: "my-auto mx-5" }, [
+        _c("p", { staticClass: "font-bold" }, [_vm._v("Литва, г. Мариямполе")]),
+        _vm._v(" "),
+        _c("p", [_vm._v("Имя: Фаррух")]),
+        _vm._v(" "),
+        _c("p", [_vm._v("Тел.: +370-123-1234")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "mt-10 flex" }, [
+      _c("img", { staticClass: "w-24", attrs: { src: "images/avatar.png" } }),
+      _vm._v(" "),
+      _c("div", { staticClass: "my-auto mx-5" }, [
+        _c("p", { staticClass: "font-bold" }, [_vm._v("Германия, г. Мюньхен")]),
+        _vm._v(" "),
+        _c("p", [_vm._v("Имя: Дилшод")]),
+        _vm._v(" "),
+        _c("p", [_vm._v("Тел.: +46-123-1234")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "mt-10 flex" }, [
+      _c("img", { staticClass: "w-24", attrs: { src: "images/avatar.png" } }),
+      _vm._v(" "),
+      _c("div", { staticClass: "my-auto mx-5" }, [
+        _c("p", { staticClass: "font-bold" }, [_vm._v("США, Коларадо")]),
+        _vm._v(" "),
+        _c("p", [_vm._v("Имя: Камол")]),
+        _vm._v(" "),
+        _c("p", [_vm._v("Тел.: +1-123-1234")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "mt-10 flex" }, [
+      _c("img", { staticClass: "w-24", attrs: { src: "images/avatar.png" } }),
+      _vm._v(" "),
+      _c("div", { staticClass: "my-auto mx-5" }, [
+        _c("p", { staticClass: "font-bold" }, [_vm._v("Корея, г. Сеул")]),
+        _vm._v(" "),
+        _c("p", [_vm._v("Имя: Фирдавс")]),
+        _vm._v(" "),
+        _c("p", [_vm._v("Тел.: +21-123-1234")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
     return _c("span", { staticClass: "text-blue-500 cursor-pointer" }, [
       _c("span", { staticClass: "text-black" }, [_vm._v(" | ")]),
+      _vm._v(" "),
       _c(
         "a",
         {
