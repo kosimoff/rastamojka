@@ -1010,7 +1010,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 20000,
         "2021": "",
         "Марка": "BMW",
-        "Модель": "1 series"
+        "Модель": "1 Series"
       }, {
         "2006": 2466,
         "2007": 2902,
@@ -8097,7 +8097,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 23000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class A"
+        "Модель": "Class A"
       }, {
         "2006": 10637,
         "2007": 12514,
@@ -8116,7 +8116,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 103500,
         "2021": 119025,
         "Марка": "Mercedes Benz",
-        "Модель": "class S AMG 63 4MATIC"
+        "Модель": "Class S AMG 63 4MATIC"
       }, {
         "2006": 11819,
         "2007": 13904,
@@ -8135,7 +8135,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 115000,
         "2021": 132250,
         "Марка": "Mercedes Benz",
-        "Модель": "class S AMG 65"
+        "Модель": "Class S AMG 65"
       }, {
         "2006": 8735,
         "2007": 10277,
@@ -8154,7 +8154,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 85000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class SL AMG 63"
+        "Модель": "Class SL AMG 63"
       }, {
         "2006": 8864,
         "2007": 10428,
@@ -8173,7 +8173,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 86250,
         "2021": 99188,
         "Марка": "Mercedes Benz",
-        "Модель": "class GL (c 2015г. GLS) 450 4MATIC"
+        "Модель": "Class GL (c 2015г. GLS) 450 4MATIC"
       }, {
         "2006": 9455,
         "2007": 11123,
@@ -8192,7 +8192,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 92000,
         "2021": 105800,
         "Марка": "Mercedes Benz",
-        "Модель": "class GL (c 2015г. GLS) 500 4MATIC"
+        "Модель": "Class GL (c 2015г. GLS) 500 4MATIC"
       }, {
         "2006": 5138,
         "2007": 6045,
@@ -8211,7 +8211,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 50000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class C AMG 43 4MATIC"
+        "Модель": "Class C AMG 43 4MATIC"
       }, {
         "2006": 12409,
         "2007": 14599,
@@ -8230,7 +8230,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 120750,
         "2021": 138863,
         "Марка": "Mercedes Benz",
-        "Модель": "class G AMG 63"
+        "Модель": "Class G AMG 63"
       }, {
         "2006": 12055,
         "2007": 14182,
@@ -8249,7 +8249,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 117300,
         "2021": 134895,
         "Марка": "Mercedes Benz",
-        "Модель": "class GL AMG (c 2015г. GLS) 63 4MATIC"
+        "Модель": "Class GL AMG (c 2015г. GLS) 63 4MATIC"
       }, {
         "2006": 4964,
         "2007": 5840,
@@ -8268,7 +8268,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 48300,
         "2021": 55545,
         "Марка": "Mercedes Benz",
-        "Модель": "class GLA AMG 45"
+        "Модель": "Class GLA AMG 45"
       }, {
         "2006": 8324,
         "2007": 9793,
@@ -8287,7 +8287,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 81000,
         "2021": 93150,
         "Марка": "Mercedes Benz",
-        "Модель": "class GLЕ AMG 53 4MATIC"
+        "Модель": "Class GLЕ AMG 53 4MATIC"
       }, {
         "2006": 10071,
         "2007": 11849,
@@ -8306,7 +8306,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 98000,
         "2021": 112700,
         "Марка": "Mercedes Benz",
-        "Модель": "class GLЕ AMG 63 4MATIC"
+        "Модель": "Class GLЕ AMG 63 4MATIC"
       }, {
         "2006": 11305,
         "2007": 13300,
@@ -8325,7 +8325,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 110000,
         "2021": 126500,
         "Марка": "Mercedes Benz",
-        "Модель": "class GLЕ AMG 63 S 4MATIC"
+        "Модель": "Class GLЕ AMG 63 S 4MATIC"
       }, {
         "2006": 7708,
         "2007": 9068,
@@ -8344,7 +8344,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 75000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class GT AMG 43 4Matik+"
+        "Модель": "Class GT AMG 43 4Matik+"
       }, {
         "2006": 7810,
         "2007": 9189,
@@ -8363,7 +8363,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 76000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class GT AMG 53 4Matik+"
+        "Модель": "Class GT AMG 53 4Matik+"
       }, {
         "2006": 8016,
         "2007": 9431,
@@ -8382,7 +8382,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 78000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class GT AMG 63 4Matik+"
+        "Модель": "Class GT AMG 63 4Matik+"
       }, {
         "2006": 8222,
         "2007": 9672,
@@ -8401,7 +8401,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 80000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class GT AMG 63 S 4Matik+"
+        "Модель": "Class GT AMG 63 S 4Matik+"
       }, {
         "2006": 8273,
         "2007": 9733,
@@ -8420,7 +8420,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 80500,
         "2021": 92575,
         "Марка": "Mercedes Benz",
-        "Модель": "class ML AMG 63"
+        "Модель": "Class ML AMG 63"
       }, {
         "2006": 4625,
         "2007": 5441,
@@ -8439,7 +8439,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 45000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class SLC AMG 43"
+        "Модель": "Class SLC AMG 43"
       }, {
         "2006": 6680,
         "2007": 7859,
@@ -8458,7 +8458,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 65000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class E AMG 53 4MATIC"
+        "Модель": "Class E AMG 53 4MATIC"
       }, {
         "2006": 6988,
         "2007": 8222,
@@ -8477,7 +8477,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 68000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class E AMG 63 4MATIC"
+        "Модель": "Class E AMG 63 4MATIC"
       }, {
         "2006": 7194,
         "2007": 8463,
@@ -8496,7 +8496,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 70000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class E AMG 63 S 4MATIC"
+        "Модель": "Class E AMG 63 S 4MATIC"
       }, {
         "2006": 2364,
         "2007": 2781,
@@ -8515,7 +8515,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 23000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class B"
+        "Модель": "Class B"
       }, {
         "2006": 3083,
         "2007": 3627,
@@ -8534,7 +8534,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 30000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class C 180"
+        "Модель": "Class C 180"
       }, {
         "2006": 3391,
         "2007": 3990,
@@ -8553,7 +8553,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 33000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class C (с 200 по 300)"
+        "Модель": "Class C (с 200 по 300)"
       }, {
         "2006": 3597,
         "2007": 4232,
@@ -8572,7 +8572,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 35000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class C (выше 300)"
+        "Модель": "Class C (выше 300)"
       }, {
         "2006": 6372,
         "2007": 7496,
@@ -8591,7 +8591,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 62000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class CLS 350D 4MATIC"
+        "Модель": "Class CLS 350D 4MATIC"
       }, {
         "2006": 6988,
         "2007": 8222,
@@ -8610,7 +8610,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 68000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class CLS 400 4MATIC"
+        "Модель": "Class CLS 400 4MATIC"
       }, {
         "2006": 7399,
         "2007": 8705,
@@ -8629,7 +8629,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 72000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class CLS 400D 4MATIC"
+        "Модель": "Class CLS 400D 4MATIC"
       }, {
         "2006": 7194,
         "2007": 8463,
@@ -8648,7 +8648,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 70000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class CLS 450 4MATIC"
+        "Модель": "Class CLS 450 4MATIC"
       }, {
         "2006": 11228,
         "2007": 13209,
@@ -8667,7 +8667,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 109250,
         "2021": 125638,
         "Марка": "Mercedes Benz",
-        "Модель": "class G"
+        "Модель": "Class G"
       }, {
         "2006": 8037,
         "2007": 9455,
@@ -8686,7 +8686,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 78200,
         "2021": 89930,
         "Марка": "Mercedes Benz",
-        "Модель": "class GL (c 2015г. GLS) 350D 4MATIC"
+        "Модель": "Class GL (c 2015г. GLS) 350D 4MATIC"
       }, {
         "2006": 8273,
         "2007": 9733,
@@ -8705,7 +8705,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 80500,
         "2021": 92575,
         "Марка": "Mercedes Benz",
-        "Модель": "class GL (c 2015г. GLS) 400 4MATIC"
+        "Модель": "Class GL (c 2015г. GLS) 400 4MATIC"
       }, {
         "2006": 3782,
         "2007": 4449,
@@ -8724,7 +8724,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 36800,
         "2021": 42320,
         "Марка": "Mercedes Benz",
-        "Модель": "class GLA (250 и выше )"
+        "Модель": "Class GLA (250 и выше )"
       }, {
         "2006": 3191,
         "2007": 3754,
@@ -8743,7 +8743,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 31050,
         "2021": 35708,
         "Марка": "Mercedes Benz",
-        "Модель": "class GLA (ниже 250)"
+        "Модель": "Class GLA (ниже 250)"
       }, {
         "2006": 4609,
         "2007": 5423,
@@ -8762,7 +8762,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 44850,
         "2021": 51578,
         "Марка": "Mercedes Benz",
-        "Модель": "class GLC 220D 4MATIC"
+        "Модель": "Class GLC 220D 4MATIC"
       }, {
         "2006": 4964,
         "2007": 5840,
@@ -8781,7 +8781,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 48300,
         "2021": 55545,
         "Марка": "Mercedes Benz",
-        "Модель": "class GLC 220D 4MATIC Premium"
+        "Модель": "Class GLC 220D 4MATIC Premium"
       }, {
         "2006": 4373,
         "2007": 5145,
@@ -8800,7 +8800,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 42550,
         "2021": 48933,
         "Марка": "Mercedes Benz",
-        "Модель": "class GLC 250 4MATIC"
+        "Модель": "Class GLC 250 4MATIC"
       }, {
         "2006": 4727,
         "2007": 5562,
@@ -8819,7 +8819,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 46000,
         "2021": 52900,
         "Марка": "Mercedes Benz",
-        "Модель": "class GLC 250 4MATIC Premium"
+        "Модель": "Class GLC 250 4MATIC Premium"
       }, {
         "2006": 5082,
         "2007": 5979,
@@ -8838,7 +8838,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 49450,
         "2021": 56868,
         "Марка": "Mercedes Benz",
-        "Модель": "class GLC 250D 4MATIC Sport"
+        "Модель": "Class GLC 250D 4MATIC Sport"
       }, {
         "2006": 5437,
         "2007": 6396,
@@ -8857,7 +8857,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 52900,
         "2021": 60835,
         "Марка": "Mercedes Benz",
-        "Модель": "class GLC 300 4MATIC Sport Plus"
+        "Модель": "Class GLC 300 4MATIC Sport Plus"
       }, {
         "2006": 5909,
         "2007": 6952,
@@ -8876,7 +8876,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 57500,
         "2021": 66125,
         "Марка": "Mercedes Benz",
-        "Модель": "class GLC 350 E 4MATIC"
+        "Модель": "Class GLC 350 E 4MATIC"
       }, {
         "2006": 6063,
         "2007": 7133,
@@ -8895,7 +8895,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 59000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class GLC 400"
+        "Модель": "Class GLC 400"
       }, {
         "2006": 6269,
         "2007": 7375,
@@ -8914,7 +8914,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 61000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class GLC 450"
+        "Модель": "Class GLC 450"
       }, {
         "2006": 6474,
         "2007": 7617,
@@ -8933,7 +8933,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 63000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class GLC 500"
+        "Модель": "Class GLC 500"
       }, {
         "2006": 6474,
         "2007": 7617,
@@ -8952,7 +8952,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 63000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class GLC 550"
+        "Модель": "Class GLC 550"
       }, {
         "2006": 6146,
         "2007": 7230,
@@ -8971,7 +8971,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 59800,
         "2021": 68770,
         "Марка": "Mercedes Benz",
-        "Модель": "class GLC AMG 43 4MATIC"
+        "Модель": "Class GLC AMG 43 4MATIC"
       }, {
         "2006": 8273,
         "2007": 9733,
@@ -8990,7 +8990,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 80500,
         "2021": 92575,
         "Марка": "Mercedes Benz",
-        "Модель": "class GLC AMG 63 4MATIC+"
+        "Модель": "Class GLC AMG 63 4MATIC+"
       }, {
         "2006": 9455,
         "2007": 11123,
@@ -9009,7 +9009,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 92000,
         "2021": 105800,
         "Марка": "Mercedes Benz",
-        "Модель": "class GLC AMG 63 S 4MATIC+"
+        "Модель": "Class GLC AMG 63 S 4MATIC+"
       }, {
         "2006": 5909,
         "2007": 6952,
@@ -9028,7 +9028,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 57500,
         "2021": 66125,
         "Марка": "Mercedes Benz",
-        "Модель": "class GLЕ 250D"
+        "Модель": "Class GLЕ 250D"
       }, {
         "2006": 6382,
         "2007": 7508,
@@ -9047,7 +9047,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 62100,
         "2021": 71415,
         "Марка": "Mercedes Benz",
-        "Модель": "class GLЕ 350D"
+        "Модель": "Class GLЕ 350D"
       }, {
         "2006": 6618,
         "2007": 7786,
@@ -9066,7 +9066,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 64400,
         "2021": 74060,
         "Марка": "Mercedes Benz",
-        "Модель": "class GLЕ (выше 300, по 400)"
+        "Модель": "Class GLЕ (выше 300, по 400)"
       }, {
         "2006": 8222,
         "2007": 9672,
@@ -9085,7 +9085,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 80000,
         "2021": 92000,
         "Марка": "Mercedes Benz",
-        "Модель": "class GLЕ (выше 400, по 500)"
+        "Модель": "Class GLЕ (выше 400, по 500)"
       }, {
         "2006": 6146,
         "2007": 7230,
@@ -9104,7 +9104,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 59800,
         "2021": 68770,
         "Марка": "Mercedes Benz",
-        "Модель": "class GLЕ (300 и ниже)"
+        "Модель": "Class GLЕ (300 и ниже)"
       }, {
         "2006": 4727,
         "2007": 5562,
@@ -9123,7 +9123,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 46000,
         "2021": 52900,
         "Марка": "Mercedes Benz",
-        "Модель": "class ML 250 4MATIC"
+        "Модель": "Class ML 250 4MATIC"
       }, {
         "2006": 4964,
         "2007": 5840,
@@ -9142,7 +9142,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 48300,
         "2021": 55545,
         "Марка": "Mercedes Benz",
-        "Модель": "class ML 300 4MATIC"
+        "Модель": "Class ML 300 4MATIC"
       }, {
         "2006": 5082,
         "2007": 5979,
@@ -9161,7 +9161,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 49450,
         "2021": 56868,
         "Марка": "Mercedes Benz",
-        "Модель": "class ML 350 4MATIC"
+        "Модель": "Class ML 350 4MATIC"
       }, {
         "2006": 5200,
         "2007": 6118,
@@ -9180,7 +9180,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 50600,
         "2021": 58190,
         "Марка": "Mercedes Benz",
-        "Модель": "class ML 400 4MATIC"
+        "Модель": "Class ML 400 4MATIC"
       }, {
         "2006": 5437,
         "2007": 6396,
@@ -9199,7 +9199,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 52900,
         "2021": 60835,
         "Марка": "Mercedes Benz",
-        "Модель": "class ML 450 4MATIC"
+        "Модель": "Class ML 450 4MATIC"
       }, {
         "2006": 6382,
         "2007": 7508,
@@ -9218,7 +9218,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 62100,
         "2021": 71415,
         "Марка": "Mercedes Benz",
-        "Модель": "class ML 500 4MATIC"
+        "Модель": "Class ML 500 4MATIC"
       }, {
         "2006": 7918,
         "2007": 9316,
@@ -9237,7 +9237,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 77050,
         "2021": 88608,
         "Марка": "Mercedes Benz",
-        "Модель": "class S 500"
+        "Модель": "Class S 500"
       }, {
         "2006": 8037,
         "2007": 9455,
@@ -9256,7 +9256,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 78200,
         "2021": 89930,
         "Марка": "Mercedes Benz",
-        "Модель": "class S 550"
+        "Модель": "Class S 550"
       }, {
         "2006": 8509,
         "2007": 10011,
@@ -9275,7 +9275,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 82800,
         "2021": 95220,
         "Марка": "Mercedes Benz",
-        "Модель": "class S 560"
+        "Модель": "Class S 560"
       }, {
         "2006": 9218,
         "2007": 10845,
@@ -9294,7 +9294,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 89700,
         "2021": 103155,
         "Марка": "Mercedes Benz",
-        "Модель": "class S 600"
+        "Модель": "Class S 600"
       }, {
         "2006": 7446,
         "2007": 8760,
@@ -9313,7 +9313,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 72450,
         "2021": 83318,
         "Марка": "Mercedes Benz",
-        "Модель": "class S (выше 300, по 400)"
+        "Модель": "Class S (выше 300, по 400)"
       }, {
         "2006": 7800,
         "2007": 9177,
@@ -9332,7 +9332,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 75900,
         "2021": 87285,
         "Марка": "Mercedes Benz",
-        "Модель": "class S (выше 400, по 500)"
+        "Модель": "Class S (выше 400, по 500)"
       }, {
         "2006": 7091,
         "2007": 8342,
@@ -9351,7 +9351,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 69000,
         "2021": 79350,
         "Марка": "Mercedes Benz",
-        "Модель": "class S (300 и ниже)"
+        "Модель": "Class S (300 и ниже)"
       }, {
         "2006": 8427,
         "2007": 9914,
@@ -9370,7 +9370,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 82000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class SL (выше 400, по 500)"
+        "Модель": "Class SL (выше 400, по 500)"
       }, {
         "2006": 8222,
         "2007": 9672,
@@ -9389,7 +9389,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 80000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class SL (400 и ниже)"
+        "Модель": "Class SL (400 и ниже)"
       }, {
         "2006": 4316,
         "2007": 5078,
@@ -9408,7 +9408,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 42000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class SLC 200"
+        "Модель": "Class SLC 200"
       }, {
         "2006": 4419,
         "2007": 5199,
@@ -9427,7 +9427,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 43000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class SLC 300"
+        "Модель": "Class SLC 300"
       }, {
         "2006": 3597,
         "2007": 4232,
@@ -9446,7 +9446,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 35000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class V 200"
+        "Модель": "Class V 200"
       }, {
         "2006": 4008,
         "2007": 4715,
@@ -9465,7 +9465,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 39000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class V 220"
+        "Модель": "Class V 220"
       }, {
         "2006": 4316,
         "2007": 5078,
@@ -9484,7 +9484,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 42000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class V 250"
+        "Модель": "Class V 250"
       }, {
         "2006": 2878,
         "2007": 3385,
@@ -9503,7 +9503,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 28000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class M Vito"
+        "Модель": "Class M Vito"
       }, {
         "2006": 4111,
         "2007": 4836,
@@ -9522,7 +9522,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 40000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class E (выше 350, по 400)"
+        "Модель": "Class E (выше 350, по 400)"
       }, {
         "2006": 4522,
         "2007": 5320,
@@ -9541,7 +9541,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 44000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class E (выше 400, до 500)"
+        "Модель": "Class E (выше 400, до 500)"
       }, {
         "2006": 4830,
         "2007": 5683,
@@ -9560,7 +9560,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 47000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class E 500"
+        "Модель": "Class E 500"
       }, {
         "2006": 5138,
         "2007": 6045,
@@ -9579,7 +9579,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 50000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class E 550"
+        "Модель": "Class E 550"
       }, {
         "2006": 3905,
         "2007": 4594,
@@ -9598,7 +9598,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 38000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class E (350 и ниже)"
+        "Модель": "Class E (350 и ниже)"
       }, {
         "2006": 5138,
         "2007": 6045,
@@ -9617,7 +9617,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 50000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class C AMG 63 Coupe"
+        "Модель": "Class C AMG 63 Coupe"
       }, {
         "2006": 5652,
         "2007": 6650,
@@ -9636,7 +9636,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 55000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class C AMG 63"
+        "Модель": "Class C AMG 63"
       }, {
         "2006": 3597,
         "2007": 4232,
@@ -9655,7 +9655,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 35000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class M Viano"
+        "Модель": "Class M Viano"
       }, {
         "2006": 4625,
         "2007": 5441,
@@ -9674,7 +9674,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 45000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class CLA AMG 45"
+        "Модель": "Class CLA AMG 45"
       }, {
         "2006": 3083,
         "2007": 3627,
@@ -9693,7 +9693,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 30000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class CLA 200"
+        "Модель": "Class CLA 200"
       }, {
         "2006": 3597,
         "2007": 4232,
@@ -9712,7 +9712,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 35000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class CLA 250"
+        "Модель": "Class CLA 250"
       }, {
         "2006": 3905,
         "2007": 4594,
@@ -9731,7 +9731,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 38000,
         "2021": "",
         "Марка": "Mercedes Benz",
-        "Модель": "class A AMG 45 4MATIC"
+        "Модель": "Class A AMG 45 4MATIC"
       }, {
         "2006": 11819,
         "2007": 13904,
@@ -9750,7 +9750,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 115000,
         "2021": 132250,
         "Марка": "Mercedes Benz",
-        "Модель": "class S Maybach S 450"
+        "Модель": "Class S Maybach S 450"
       }, {
         "2006": 12055,
         "2007": 14182,
@@ -9769,7 +9769,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 117300,
         "2021": 134895,
         "Марка": "Mercedes Benz",
-        "Модель": "class S Maybach S 560"
+        "Модель": "Class S Maybach S 560"
       }, {
         "2006": 12409,
         "2007": 14599,
@@ -9788,7 +9788,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 120750,
         "2021": 138863,
         "Марка": "Mercedes Benz",
-        "Модель": "class S Maybach S 650"
+        "Модель": "Class S Maybach S 650"
       }, {
         "2006": 2466,
         "2007": 2902,
