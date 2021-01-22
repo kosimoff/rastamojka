@@ -18716,7 +18716,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("a", { attrs: { href: "./index.html" } }, [
       _c("img", {
-        staticClass: "mx-auto my-5",
+        staticClass: "mx-auto my-5 w-1/3",
         attrs: { src: "images/logo.png", alt: "TEXOSMOTR.TJ" }
       })
     ])
