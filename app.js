@@ -18249,11 +18249,11 @@ var render = function() {
           {
             staticClass: "p-10 shadow-2xl bg-blue-800 rounded-lg",
             style: [
-              { fontSize: _vm.resultFont },
-              { marginTop: _vm.resultMarginTop },
-              { marginRight: _vm.resultMarginRight },
-              { marginBottom: _vm.resultMarginBottom },
-              { marginLeft: _vm.resultMarginLeft }
+              { fontSize: _vm.calcFont },
+              { marginTop: _vm.calcMarginTop },
+              { marginRight: _vm.calcMarginRight },
+              { marginBottom: _vm.calcMarginBottom },
+              { marginLeft: _vm.calcMarginLeft }
             ]
           },
           [
