@@ -18675,7 +18675,7 @@ var render = function() {
         ])
       : _vm._e(),
     _vm._v(" "),
-    _c("div", { staticClass: "text-center mt-2 mb-3" }, [
+    _c("div", { staticClass: "text-center mt-2 mb-10" }, [
       _c(
         "span",
         {
