@@ -18248,224 +18248,31 @@ var render = function() {
     _vm._m(0),
     _vm._v(" "),
     !_vm.price && !_vm.about && !_vm.agents
-      ? _c(
-          "div",
-          {
-            staticClass: "p-10 shadow-2xl bg-blue-800 rounded-lg",
-            style: [
-              { fontSize: _vm.calcFont },
-              { marginTop: _vm.calcMarginTop },
-              { marginRight: _vm.calcMarginRight },
-              { marginBottom: _vm.calcMarginBottom },
-              { marginLeft: _vm.calcMarginLeft }
-            ]
-          },
-          [
-            _c(
-              "h1",
-              {
-                staticClass: "font-bold text-white uppercase",
-                style: { fontSize: _vm.calcFont }
-              },
-              [_vm._v("Расчет Растаможки")]
-            ),
+      ? _c("div", { staticClass: "p-10 shadow-2xl bg-blue-800 rounded-lg" }, [
+          _c("h1", { staticClass: "font-bold text-white uppercase" }, [
+            _vm._v("Расчет Растаможки")
+          ]),
+          _vm._v(" "),
+          _c("form", { attrs: { onsubmit: "return false" } }, [
+            _c("p", { staticClass: "flex pt-5 text-white" }, [_vm._v("Марка")]),
             _vm._v(" "),
-            _c("form", { attrs: { onsubmit: "return false" } }, [
-              _c("p", { staticClass: "flex pt-5 text-white" }, [
-                _vm._v("Марка")
-              ]),
-              _vm._v(" "),
-              _c(
-                "select",
-                {
-                  directives: [
-                    {
-                      name: "model",
-                      rawName: "v-model",
-                      value: _vm.selectedMake,
-                      expression: "selectedMake"
-                    }
-                  ],
-                  staticClass:
-                    "text-gray-700 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
-                  attrs: { required: "" },
-                  on: {
-                    change: [
-                      function($event) {
-                        var $$selectedVal = Array.prototype.filter
-                          .call($event.target.options, function(o) {
-                            return o.selected
-                          })
-                          .map(function(o) {
-                            var val = "_value" in o ? o._value : o.value
-                            return val
-                          })
-                        _vm.selectedMake = $event.target.multiple
-                          ? $$selectedVal
-                          : $$selectedVal[0]
-                      },
-                      function($event) {
-                        return _vm.makeSelect()
-                      }
-                    ],
-                    click: function($event) {
-                      _vm.makeFault = false
-                    }
-                  }
-                },
-                _vm._l(_vm.uniqueMakes, function(uniqueMake) {
-                  return _c("option", [_vm._v(_vm._s(uniqueMake))])
-                }),
-                0
-              ),
-              _vm._v(" "),
-              _vm.makeFault
-                ? _c("div", { staticClass: "text-sm text-white" }, [
-                    _vm._v(
-                      "\n        Пожалуйста, сначала выберите марку\n      "
-                    )
-                  ])
-                : _vm._e(),
-              _vm._v(" "),
-              _c("p", { staticClass: "flex pt-5 text-white" }, [
-                _vm._v("Модель")
-              ]),
-              _vm._v(" "),
-              _c(
-                "select",
-                {
-                  directives: [
-                    {
-                      name: "model",
-                      rawName: "v-model",
-                      value: _vm.selectedModel,
-                      expression: "selectedModel"
-                    }
-                  ],
-                  staticClass:
-                    "text-gray-700 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
-                  attrs: { required: "" },
-                  on: {
-                    click: function($event) {
-                      return _vm.showMakeFault()
-                    },
-                    change: function($event) {
-                      var $$selectedVal = Array.prototype.filter
-                        .call($event.target.options, function(o) {
-                          return o.selected
-                        })
-                        .map(function(o) {
-                          var val = "_value" in o ? o._value : o.value
-                          return val
-                        })
-                      _vm.selectedModel = $event.target.multiple
-                        ? $$selectedVal
-                        : $$selectedVal[0]
-                    }
-                  }
-                },
-                _vm._l(_vm.models, function(model) {
-                  return _c("option", [_vm._v(_vm._s(model))])
-                }),
-                0
-              ),
-              _vm._v(" "),
-              _c("p", { staticClass: "flex pt-5 text-white" }, [
-                _vm._v("Год выпуска")
-              ]),
-              _vm._v(" "),
-              _c(
-                "select",
-                {
-                  directives: [
-                    {
-                      name: "model",
-                      rawName: "v-model",
-                      value: _vm.year,
-                      expression: "year"
-                    }
-                  ],
-                  staticClass:
-                    "text-gray-700 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
-                  attrs: { required: "" },
-                  on: {
-                    click: function($event) {
-                      _vm.makeFault = false
-                    },
-                    change: function($event) {
-                      var $$selectedVal = Array.prototype.filter
-                        .call($event.target.options, function(o) {
-                          return o.selected
-                        })
-                        .map(function(o) {
-                          var val = "_value" in o ? o._value : o.value
-                          return val
-                        })
-                      _vm.year = $event.target.multiple
-                        ? $$selectedVal
-                        : $$selectedVal[0]
-                    }
-                  }
-                },
-                _vm._l(_vm.years, function(year) {
-                  return _c("option", [_vm._v(_vm._s(year))])
-                }),
-                0
-              ),
-              _vm._v(" "),
-              _c("p", { staticClass: "flex pt-5 text-white" }, [
-                _vm._v("Объем двиателя (дм³)")
-              ]),
-              _vm._v(" "),
-              _c("input", {
+            _c(
+              "select",
+              {
                 directives: [
                   {
                     name: "model",
                     rawName: "v-model",
-                    value: _vm.engineCapacity,
-                    expression: "engineCapacity"
+                    value: _vm.selectedMake,
+                    expression: "selectedMake"
                   }
                 ],
                 staticClass:
-                  "text-gray-700 pl-2 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
-                attrs: { type: "number", step: "0.1", required: "" },
-                domProps: { value: _vm.engineCapacity },
+                  "text-gray-700 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
+                attrs: { required: "" },
                 on: {
-                  click: function($event) {
-                    _vm.makeFault = false
-                  },
-                  input: function($event) {
-                    if ($event.target.composing) {
-                      return
-                    }
-                    _vm.engineCapacity = $event.target.value
-                  }
-                }
-              }),
-              _vm._v(" "),
-              _c("p", { staticClass: "flex pt-5 text-white" }, [
-                _vm._v("Откуда")
-              ]),
-              _vm._v(" "),
-              _c(
-                "select",
-                {
-                  directives: [
-                    {
-                      name: "model",
-                      rawName: "v-model",
-                      value: _vm.selectedCountry,
-                      expression: "selectedCountry"
-                    }
-                  ],
-                  staticClass:
-                    "text-gray-700 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
-                  attrs: { required: "" },
-                  on: {
-                    click: function($event) {
-                      _vm.makeFault = false
-                    },
-                    change: function($event) {
+                  change: [
+                    function($event) {
                       var $$selectedVal = Array.prototype.filter
                         .call($event.target.options, function(o) {
                           return o.selected
@@ -18474,33 +18281,204 @@ var render = function() {
                           var val = "_value" in o ? o._value : o.value
                           return val
                         })
-                      _vm.selectedCountry = $event.target.multiple
+                      _vm.selectedMake = $event.target.multiple
                         ? $$selectedVal
                         : $$selectedVal[0]
+                    },
+                    function($event) {
+                      return _vm.makeSelect()
                     }
+                  ],
+                  click: function($event) {
+                    _vm.makeFault = false
                   }
+                }
+              },
+              _vm._l(_vm.uniqueMakes, function(uniqueMake) {
+                return _c("option", [_vm._v(_vm._s(uniqueMake))])
+              }),
+              0
+            ),
+            _vm._v(" "),
+            _vm.makeFault
+              ? _c("div", { staticClass: "text-sm text-white" }, [
+                  _vm._v("\n        Пожалуйста, сначала выберите марку\n      ")
+                ])
+              : _vm._e(),
+            _vm._v(" "),
+            _c("p", { staticClass: "flex pt-5 text-white" }, [
+              _vm._v("Модель")
+            ]),
+            _vm._v(" "),
+            _c(
+              "select",
+              {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.selectedModel,
+                    expression: "selectedModel"
+                  }
+                ],
+                staticClass:
+                  "text-gray-700 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
+                attrs: { required: "" },
+                on: {
+                  click: function($event) {
+                    return _vm.showMakeFault()
+                  },
+                  change: function($event) {
+                    var $$selectedVal = Array.prototype.filter
+                      .call($event.target.options, function(o) {
+                        return o.selected
+                      })
+                      .map(function(o) {
+                        var val = "_value" in o ? o._value : o.value
+                        return val
+                      })
+                    _vm.selectedModel = $event.target.multiple
+                      ? $$selectedVal
+                      : $$selectedVal[0]
+                  }
+                }
+              },
+              _vm._l(_vm.models, function(model) {
+                return _c("option", [_vm._v(_vm._s(model))])
+              }),
+              0
+            ),
+            _vm._v(" "),
+            _c("p", { staticClass: "flex pt-5 text-white" }, [
+              _vm._v("Год выпуска")
+            ]),
+            _vm._v(" "),
+            _c(
+              "select",
+              {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.year,
+                    expression: "year"
+                  }
+                ],
+                staticClass:
+                  "text-gray-700 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
+                attrs: { required: "" },
+                on: {
+                  click: function($event) {
+                    _vm.makeFault = false
+                  },
+                  change: function($event) {
+                    var $$selectedVal = Array.prototype.filter
+                      .call($event.target.options, function(o) {
+                        return o.selected
+                      })
+                      .map(function(o) {
+                        var val = "_value" in o ? o._value : o.value
+                        return val
+                      })
+                    _vm.year = $event.target.multiple
+                      ? $$selectedVal
+                      : $$selectedVal[0]
+                  }
+                }
+              },
+              _vm._l(_vm.years, function(year) {
+                return _c("option", [_vm._v(_vm._s(year))])
+              }),
+              0
+            ),
+            _vm._v(" "),
+            _c("p", { staticClass: "flex pt-5 text-white" }, [
+              _vm._v("Объем двиателя (дм³)")
+            ]),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.engineCapacity,
+                  expression: "engineCapacity"
+                }
+              ],
+              staticClass:
+                "text-gray-700 pl-2 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
+              attrs: { type: "number", step: "0.1", required: "" },
+              domProps: { value: _vm.engineCapacity },
+              on: {
+                click: function($event) {
+                  _vm.makeFault = false
                 },
-                _vm._l(_vm.countries, function(country) {
-                  return _c("option", [_vm._v(_vm._s(country))])
-                }),
-                0
-              ),
-              _vm._v(" "),
-              _c("div", { staticClass: "pt-5" }, [
-                _c("input", {
-                  staticClass:
-                    "focus:outline-none focus:bg-blue-700 bg-red-800 hover:bg-red-900 w-full text-white p-2 rounded",
-                  attrs: { type: "submit", value: "Подсчитать" },
-                  on: {
-                    click: function($event) {
-                      return _vm.calculate()
-                    }
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
                   }
-                })
-              ])
+                  _vm.engineCapacity = $event.target.value
+                }
+              }
+            }),
+            _vm._v(" "),
+            _c("p", { staticClass: "flex pt-5 text-white" }, [
+              _vm._v("Откуда")
+            ]),
+            _vm._v(" "),
+            _c(
+              "select",
+              {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.selectedCountry,
+                    expression: "selectedCountry"
+                  }
+                ],
+                staticClass:
+                  "text-gray-700 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
+                attrs: { required: "" },
+                on: {
+                  click: function($event) {
+                    _vm.makeFault = false
+                  },
+                  change: function($event) {
+                    var $$selectedVal = Array.prototype.filter
+                      .call($event.target.options, function(o) {
+                        return o.selected
+                      })
+                      .map(function(o) {
+                        var val = "_value" in o ? o._value : o.value
+                        return val
+                      })
+                    _vm.selectedCountry = $event.target.multiple
+                      ? $$selectedVal
+                      : $$selectedVal[0]
+                  }
+                }
+              },
+              _vm._l(_vm.countries, function(country) {
+                return _c("option", [_vm._v(_vm._s(country))])
+              }),
+              0
+            ),
+            _vm._v(" "),
+            _c("div", { staticClass: "pt-5" }, [
+              _c("input", {
+                staticClass:
+                  "focus:outline-none focus:bg-blue-700 bg-red-800 hover:bg-red-900 w-full text-white p-2 rounded",
+                attrs: { type: "submit", value: "Подсчитать" },
+                on: {
+                  click: function($event) {
+                    return _vm.calculate()
+                  }
+                }
+              })
             ])
-          ]
-        )
+          ])
+        ])
       : _vm._e(),
     _vm._v(" "),
     _vm.price
