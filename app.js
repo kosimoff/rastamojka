@@ -17592,7 +17592,21 @@ __webpack_require__.r(__webpack_exports__);
       procedure: '',
       about: false,
       agents: false,
-      makeFault: false
+      makeFault: false,
+      calcFont: false,
+      calcMarginTop: false,
+      calcMarginRight: false,
+      calcMarginBottom: false,
+      calcMarginLeft: false,
+      resultMarginTop: false,
+      resultMarginRight: false,
+      resultMarginBottom: false,
+      resultMarginLeft: false,
+      resultFont: false,
+      window: {
+        width: 0,
+        height: 0
+      }
     };
   },
   created: function created() {
@@ -17604,8 +17618,52 @@ __webpack_require__.r(__webpack_exports__);
         }
       }
     }
+
+    window.addEventListener('resize', this.handleResize);
+    this.handleResize();
+  },
+  destroyed: function destroyed() {
+    window.removeEventListener('resize', this.handleResize);
   },
   methods: {
+    handleResize: function handleResize() {
+      this.window.width = window.innerWidth;
+      this.window.height = window.innerHeight;
+
+      if (this.window.height > this.window.width) {
+        //portrait
+        this.calcFont = this.window.width / 100 * 5 + 'px';
+        this.resultFont = this.window.width / 100 * 2.8 + 'px';
+        this.calcMarginX = this.window.width / 100 * 1 + 'px';
+        this.calcMarginY = this.window.width / 100 * 2 + 'px';
+        this.resultMarginX = this.window.width / 100 * 5 + 'px';
+        this.resultMarginY = this.window.width / 100 * 2 + 'px';
+        this.calcMarginTop = this.calcMarginY;
+        this.calcMarginBottom = this.calcMarginY;
+        this.calcMarginRight = this.calcMarginX;
+        this.calcMarginLeft = this.calcMarginX;
+        this.resultMarginTop = this.resultMarginY;
+        this.resultMarginBottom = this.resultMarginY;
+        this.resultMarginRight = this.resultMarginX;
+        this.resultMarginLeft = this.resultMarginX;
+      } else {
+        //landscape
+        this.calcFont = this.window.height / 100 * 5 + 'px';
+        this.resultFont = this.window.height / 100 * 2.7 + 'px';
+        this.calcMarginX = this.window.height / 100 * 10 + 'px';
+        this.calcMarginY = this.window.height / 100 * 2 + 'px';
+        this.resultMarginX = this.window.height / 100 * 13 + 'px';
+        this.resultMarginY = this.window.height / 100 * 2 + 'px';
+        this.calcMarginTop = this.calcMarginY;
+        this.calcMarginBottom = this.calcMarginY;
+        this.calcMarginRight = this.calcMarginX;
+        this.calcMarginLeft = this.calcMarginX;
+        this.resultMarginTop = this.resultMarginY;
+        this.resultMarginBottom = this.resultMarginY;
+        this.resultMarginRight = this.resultMarginX;
+        this.resultMarginLeft = this.resultMarginX;
+      }
+    },
     calculatorField: function calculatorField() {
       this.price = false;
       this.about = false;
@@ -18186,31 +18244,108 @@ var render = function() {
     _vm._m(0),
     _vm._v(" "),
     !_vm.price && !_vm.about && !_vm.agents
-      ? _c("div", { staticClass: "p-10 shadow-2xl bg-blue-800 rounded-lg" }, [
-          _c("h1", { staticClass: "font-bold text-white uppercase" }, [
-            _vm._v("Расчет Растаможки")
-          ]),
-          _vm._v(" "),
-          _c("form", { attrs: { onsubmit: "return false" } }, [
-            _c("p", { staticClass: "flex pt-5 text-white" }, [_vm._v("Марка")]),
-            _vm._v(" "),
+      ? _c(
+          "div",
+          {
+            staticClass: "p-10 shadow-2xl bg-blue-800 rounded-lg",
+            style: [
+              { fontSize: _vm.resultFont },
+              { marginTop: _vm.resultMarginTop },
+              { marginRight: _vm.resultMarginRight },
+              { marginBottom: _vm.resultMarginBottom },
+              { marginLeft: _vm.resultMarginLeft }
+            ]
+          },
+          [
             _c(
-              "select",
+              "h1",
               {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.selectedMake,
-                    expression: "selectedMake"
+                staticClass: "font-bold text-white uppercase",
+                style: { fontSize: _vm.calcFont }
+              },
+              [_vm._v("Расчет Растаможки")]
+            ),
+            _vm._v(" "),
+            _c("form", { attrs: { onsubmit: "return false" } }, [
+              _c("p", { staticClass: "flex pt-5 text-white" }, [
+                _vm._v("Марка")
+              ]),
+              _vm._v(" "),
+              _c(
+                "select",
+                {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.selectedMake,
+                      expression: "selectedMake"
+                    }
+                  ],
+                  staticClass:
+                    "text-gray-700 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
+                  attrs: { required: "" },
+                  on: {
+                    change: [
+                      function($event) {
+                        var $$selectedVal = Array.prototype.filter
+                          .call($event.target.options, function(o) {
+                            return o.selected
+                          })
+                          .map(function(o) {
+                            var val = "_value" in o ? o._value : o.value
+                            return val
+                          })
+                        _vm.selectedMake = $event.target.multiple
+                          ? $$selectedVal
+                          : $$selectedVal[0]
+                      },
+                      function($event) {
+                        return _vm.makeSelect()
+                      }
+                    ],
+                    click: function($event) {
+                      _vm.makeFault = false
+                    }
                   }
-                ],
-                staticClass:
-                  "text-gray-700 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
-                attrs: { required: "" },
-                on: {
-                  change: [
-                    function($event) {
+                },
+                _vm._l(_vm.uniqueMakes, function(uniqueMake) {
+                  return _c("option", [_vm._v(_vm._s(uniqueMake))])
+                }),
+                0
+              ),
+              _vm._v(" "),
+              _vm.makeFault
+                ? _c("div", { staticClass: "text-sm text-white" }, [
+                    _vm._v(
+                      "\n        Пожалуйста, сначала выберите марку\n      "
+                    )
+                  ])
+                : _vm._e(),
+              _vm._v(" "),
+              _c("p", { staticClass: "flex pt-5 text-white" }, [
+                _vm._v("Модель")
+              ]),
+              _vm._v(" "),
+              _c(
+                "select",
+                {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.selectedModel,
+                      expression: "selectedModel"
+                    }
+                  ],
+                  staticClass:
+                    "text-gray-700 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
+                  attrs: { required: "" },
+                  on: {
+                    click: function($event) {
+                      return _vm.showMakeFault()
+                    },
+                    change: function($event) {
                       var $$selectedVal = Array.prototype.filter
                         .call($event.target.options, function(o) {
                           return o.selected
@@ -18219,305 +18354,267 @@ var render = function() {
                           var val = "_value" in o ? o._value : o.value
                           return val
                         })
-                      _vm.selectedMake = $event.target.multiple
+                      _vm.selectedModel = $event.target.multiple
                         ? $$selectedVal
                         : $$selectedVal[0]
-                    },
-                    function($event) {
-                      return _vm.makeSelect()
+                    }
+                  }
+                },
+                _vm._l(_vm.models, function(model) {
+                  return _c("option", [_vm._v(_vm._s(model))])
+                }),
+                0
+              ),
+              _vm._v(" "),
+              _c("p", { staticClass: "flex pt-5 text-white" }, [
+                _vm._v("Год выпуска")
+              ]),
+              _vm._v(" "),
+              _c(
+                "select",
+                {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.year,
+                      expression: "year"
                     }
                   ],
-                  click: function($event) {
-                    _vm.makeFault = false
+                  staticClass:
+                    "text-gray-700 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
+                  attrs: { required: "" },
+                  on: {
+                    click: function($event) {
+                      _vm.makeFault = false
+                    },
+                    change: function($event) {
+                      var $$selectedVal = Array.prototype.filter
+                        .call($event.target.options, function(o) {
+                          return o.selected
+                        })
+                        .map(function(o) {
+                          var val = "_value" in o ? o._value : o.value
+                          return val
+                        })
+                      _vm.year = $event.target.multiple
+                        ? $$selectedVal
+                        : $$selectedVal[0]
+                    }
                   }
-                }
-              },
-              _vm._l(_vm.uniqueMakes, function(uniqueMake) {
-                return _c("option", [_vm._v(_vm._s(uniqueMake))])
-              }),
-              0
-            ),
-            _vm._v(" "),
-            _vm.makeFault
-              ? _c("div", { staticClass: "text-sm text-white" }, [
-                  _vm._v("\n        Пожалуйста, сначала выберите марку\n      ")
-                ])
-              : _vm._e(),
-            _vm._v(" "),
-            _c("p", { staticClass: "flex pt-5 text-white" }, [
-              _vm._v("Модель")
-            ]),
-            _vm._v(" "),
-            _c(
-              "select",
-              {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.selectedModel,
-                    expression: "selectedModel"
-                  }
-                ],
-                staticClass:
-                  "text-gray-700 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
-                attrs: { required: "" },
-                on: {
-                  click: function($event) {
-                    return _vm.showMakeFault()
-                  },
-                  change: function($event) {
-                    var $$selectedVal = Array.prototype.filter
-                      .call($event.target.options, function(o) {
-                        return o.selected
-                      })
-                      .map(function(o) {
-                        var val = "_value" in o ? o._value : o.value
-                        return val
-                      })
-                    _vm.selectedModel = $event.target.multiple
-                      ? $$selectedVal
-                      : $$selectedVal[0]
-                  }
-                }
-              },
-              _vm._l(_vm.models, function(model) {
-                return _c("option", [_vm._v(_vm._s(model))])
-              }),
-              0
-            ),
-            _vm._v(" "),
-            _c("p", { staticClass: "flex pt-5 text-white" }, [
-              _vm._v("Год выпуска")
-            ]),
-            _vm._v(" "),
-            _c(
-              "select",
-              {
-                directives: [
-                  {
-                    name: "model",
-                    rawName: "v-model",
-                    value: _vm.year,
-                    expression: "year"
-                  }
-                ],
-                staticClass:
-                  "text-gray-700 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
-                attrs: { required: "" },
-                on: {
-                  click: function($event) {
-                    _vm.makeFault = false
-                  },
-                  change: function($event) {
-                    var $$selectedVal = Array.prototype.filter
-                      .call($event.target.options, function(o) {
-                        return o.selected
-                      })
-                      .map(function(o) {
-                        var val = "_value" in o ? o._value : o.value
-                        return val
-                      })
-                    _vm.year = $event.target.multiple
-                      ? $$selectedVal
-                      : $$selectedVal[0]
-                  }
-                }
-              },
-              _vm._l(_vm.years, function(year) {
-                return _c("option", [_vm._v(_vm._s(year))])
-              }),
-              0
-            ),
-            _vm._v(" "),
-            _c("p", { staticClass: "flex pt-5 text-white" }, [
-              _vm._v("Объем двиателя (литр)")
-            ]),
-            _vm._v(" "),
-            _c("input", {
-              directives: [
-                {
-                  name: "model",
-                  rawName: "v-model",
-                  value: _vm.engineCapacity,
-                  expression: "engineCapacity"
-                }
-              ],
-              staticClass:
-                "text-gray-700 pl-2 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
-              attrs: { type: "number", step: "0.1", min: "0.1", required: "" },
-              domProps: { value: _vm.engineCapacity },
-              on: {
-                click: function($event) {
-                  _vm.makeFault = false
                 },
-                input: function($event) {
-                  if ($event.target.composing) {
-                    return
-                  }
-                  _vm.engineCapacity = $event.target.value
-                }
-              }
-            }),
-            _vm._v(" "),
-            _c("p", { staticClass: "flex pt-5 text-white" }, [
-              _vm._v("Откуда")
-            ]),
-            _vm._v(" "),
-            _c(
-              "select",
-              {
+                _vm._l(_vm.years, function(year) {
+                  return _c("option", [_vm._v(_vm._s(year))])
+                }),
+                0
+              ),
+              _vm._v(" "),
+              _c("p", { staticClass: "flex pt-5 text-white" }, [
+                _vm._v("Объем двиателя (литр)")
+              ]),
+              _vm._v(" "),
+              _c("input", {
                 directives: [
                   {
                     name: "model",
                     rawName: "v-model",
-                    value: _vm.selectedCountry,
-                    expression: "selectedCountry"
+                    value: _vm.engineCapacity,
+                    expression: "engineCapacity"
                   }
                 ],
                 staticClass:
-                  "text-gray-700 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
-                attrs: { required: "" },
+                  "text-gray-700 pl-2 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
+                attrs: {
+                  type: "number",
+                  step: "0.1",
+                  min: "0.1",
+                  required: ""
+                },
+                domProps: { value: _vm.engineCapacity },
                 on: {
                   click: function($event) {
                     _vm.makeFault = false
                   },
-                  change: function($event) {
-                    var $$selectedVal = Array.prototype.filter
-                      .call($event.target.options, function(o) {
-                        return o.selected
-                      })
-                      .map(function(o) {
-                        var val = "_value" in o ? o._value : o.value
-                        return val
-                      })
-                    _vm.selectedCountry = $event.target.multiple
-                      ? $$selectedVal
-                      : $$selectedVal[0]
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.engineCapacity = $event.target.value
                   }
                 }
-              },
-              _vm._l(_vm.countries, function(country) {
-                return _c("option", [_vm._v(_vm._s(country))])
               }),
-              0
-            ),
-            _vm._v(" "),
-            _c("div", { staticClass: "pt-5" }, [
-              _c("input", {
-                staticClass:
-                  "focus:outline-none focus:bg-blue-700 bg-red-800 hover:bg-red-900 w-full text-white p-2 rounded",
-                attrs: { type: "submit", value: "Подсчитать" },
-                on: {
-                  click: function($event) {
-                    return _vm.calculate()
+              _vm._v(" "),
+              _c("p", { staticClass: "flex pt-5 text-white" }, [
+                _vm._v("Откуда")
+              ]),
+              _vm._v(" "),
+              _c(
+                "select",
+                {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.selectedCountry,
+                      expression: "selectedCountry"
+                    }
+                  ],
+                  staticClass:
+                    "text-gray-700 focus:bg-white focus:outline-none w-full rounded bg-gray-200",
+                  attrs: { required: "" },
+                  on: {
+                    click: function($event) {
+                      _vm.makeFault = false
+                    },
+                    change: function($event) {
+                      var $$selectedVal = Array.prototype.filter
+                        .call($event.target.options, function(o) {
+                          return o.selected
+                        })
+                        .map(function(o) {
+                          var val = "_value" in o ? o._value : o.value
+                          return val
+                        })
+                      _vm.selectedCountry = $event.target.multiple
+                        ? $$selectedVal
+                        : $$selectedVal[0]
+                    }
                   }
-                }
-              })
+                },
+                _vm._l(_vm.countries, function(country) {
+                  return _c("option", [_vm._v(_vm._s(country))])
+                }),
+                0
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "pt-5" }, [
+                _c("input", {
+                  staticClass:
+                    "focus:outline-none focus:bg-blue-700 bg-red-800 hover:bg-red-900 w-full text-white p-2 rounded",
+                  attrs: { type: "submit", value: "Подсчитать" },
+                  on: {
+                    click: function($event) {
+                      return _vm.calculate()
+                    }
+                  }
+                })
+              ])
             ])
-          ])
-        ])
+          ]
+        )
       : _vm._e(),
     _vm._v(" "),
     _vm.price
-      ? _c("div", [
-          _c("div", { staticClass: "bg-white p-5 shadow-2xl" }, [
-            _vm._m(1),
-            _vm._v(" "),
-            _c("p", { staticClass: "mt-2" }, [
-              _vm._v("Марка: " + _vm._s(_vm.selectedMake))
-            ]),
-            _vm._v(" "),
-            _c("p", [_vm._v("Модель: " + _vm._s(_vm.selectedModel))]),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v("Объем двигателя: " + _vm._s(_vm.engineCapacity) + " л.")
-            ]),
-            _vm._v(" "),
-            _c("p", [_vm._v("Год выпуска: " + _vm._s(_vm.year))]),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v(
-                "Расчет исходя от минимальной стоимости: " +
-                  _vm._s(_vm.price) +
-                  "$"
-              )
-            ]),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v("Ввозимая страна: " + _vm._s(_vm.selectedCountry))
-            ]),
-            _vm._v(" "),
-            _c("hr", { staticClass: "mt-5 border-black" }),
-            _vm._v(" "),
-            _vm._m(2),
-            _vm._v(" "),
-            _c("p", { staticClass: "mt-2" }, [
-              _vm._v(_vm._s(_vm.poshlina) + "$ - пошлина")
-            ]),
-            _vm._v(" "),
-            _vm.akcizEngine <= _vm.akcizPrice
-              ? _c(
-                  "div",
-                  [
-                    _c("p", [
-                      _vm._v(_vm._s(_vm.akcizPrice) + "$ - акциз (по цене)")
-                    ]),
-                    _vm._v(" "),
-                    _c("strike", [
-                      _vm._v(
-                        " " +
-                          _vm._s(_vm.akcizEngine) +
-                          "$ - акциз (по объему двигателя)"
-                      )
-                    ])
-                  ],
-                  1
+      ? _c(
+          "div",
+          {
+            style: [
+              { fontSize: _vm.resultFont },
+              { marginTop: _vm.resultMarginTop },
+              { marginRight: _vm.resultMarginRight },
+              { marginBottom: _vm.resultMarginBottom },
+              { marginLeft: _vm.resultMarginLeft }
+            ]
+          },
+          [
+            _c("div", { staticClass: "bg-white p-5 shadow-2xl" }, [
+              _vm._m(1),
+              _vm._v(" "),
+              _c("p", { staticClass: "mt-2" }, [
+                _vm._v("Марка: " + _vm._s(_vm.selectedMake))
+              ]),
+              _vm._v(" "),
+              _c("p", [_vm._v("Модель: " + _vm._s(_vm.selectedModel))]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v("Объем двигателя: " + _vm._s(_vm.engineCapacity) + " л.")
+              ]),
+              _vm._v(" "),
+              _c("p", [_vm._v("Год выпуска: " + _vm._s(_vm.year))]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Расчет исходя от минимальной стоимости: " +
+                    _vm._s(_vm.price) +
+                    "$"
                 )
-              : _vm._e(),
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v("Ввозимая страна: " + _vm._s(_vm.selectedCountry))
+              ]),
+              _vm._v(" "),
+              _c("hr", { staticClass: "mt-5 border-black" }),
+              _vm._v(" "),
+              _vm._m(2),
+              _vm._v(" "),
+              _c("p", { staticClass: "mt-2" }, [
+                _vm._v(_vm._s(_vm.poshlina) + "$ - пошлина")
+              ]),
+              _vm._v(" "),
+              _vm.akcizEngine <= _vm.akcizPrice
+                ? _c(
+                    "div",
+                    [
+                      _c("p", [
+                        _vm._v(_vm._s(_vm.akcizPrice) + "$ - акциз (по цене)")
+                      ]),
+                      _vm._v(" "),
+                      _c("strike", [
+                        _vm._v(
+                          " " +
+                            _vm._s(_vm.akcizEngine) +
+                            "$ - акциз (по объему двигателя)"
+                        )
+                      ])
+                    ],
+                    1
+                  )
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.akcizEngine > _vm.akcizPrice
+                ? _c(
+                    "div",
+                    [
+                      _c("strike", [
+                        _vm._v(_vm._s(_vm.akcizPrice) + "$ - акциз (по цене)")
+                      ]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          " " +
+                            _vm._s(_vm.akcizEngine) +
+                            "$ - акциз (по объему двигателя)"
+                        )
+                      ])
+                    ],
+                    1
+                  )
+                : _vm._e(),
+              _vm._v(" "),
+              _c("p", [_vm._v(_vm._s(_vm.nds) + "$ - НДС")]),
+              _vm._v(" "),
+              _c("p", [_vm._v(_vm._s(_vm.procedure) + "$ - процедура")]),
+              _vm._v(" "),
+              _c("hr", { staticClass: "mt-5 border-black" }),
+              _vm._v(" "),
+              _c("p", { staticClass: "mt-5" }, [
+                _c("b", [_vm._v("Всего: " + _vm._s(_vm.total) + "$")])
+              ])
+            ]),
             _vm._v(" "),
-            _vm.akcizEngine > _vm.akcizPrice
-              ? _c(
-                  "div",
-                  [
-                    _c("strike", [
-                      _vm._v(_vm._s(_vm.akcizPrice) + "$ - акциз (по цене)")
-                    ]),
-                    _vm._v(" "),
-                    _c("p", [
-                      _vm._v(
-                        " " +
-                          _vm._s(_vm.akcizEngine) +
-                          "$ - акциз (по объему двигателя)"
-                      )
-                    ])
-                  ],
-                  1
-                )
-              : _vm._e(),
-            _vm._v(" "),
-            _c("p", [_vm._v(_vm._s(_vm.nds) + "$ - НДС")]),
-            _vm._v(" "),
-            _c("p", [_vm._v(_vm._s(_vm.procedure) + "$ - процедура")]),
-            _vm._v(" "),
-            _c("hr", { staticClass: "mt-5 border-black" }),
-            _vm._v(" "),
-            _c("p", { staticClass: "mt-5" }, [
-              _c("b", [_vm._v("Всего: " + _vm._s(_vm.total) + "$")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("input", {
-            staticClass:
-              "bg-blue-800 hover:bg-blue-900 shadow-2xl w-full text-white p-2 mt-4 rounded",
-            attrs: { type: "submit", value: "Назад" },
-            on: {
-              click: function($event) {
-                _vm.price = false
+            _c("input", {
+              staticClass:
+                "bg-blue-800 hover:bg-blue-900 shadow-2xl w-full text-white p-2 mt-4 rounded",
+              attrs: { type: "submit", value: "Назад" },
+              on: {
+                click: function($event) {
+                  _vm.price = false
+                }
               }
-            }
-          })
-        ])
+            })
+          ]
+        )
       : _vm._e(),
     _vm._v(" "),
     _vm.about
