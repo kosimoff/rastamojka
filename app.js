@@ -14449,15 +14449,24 @@ var staticRenderFns = [
       "div",
       { staticStyle: { display: "none" }, attrs: { id: "downloadandroidapp" } },
       [
-        _c("a", { attrs: { href: "/RASTAMOJKA.TJ.apk" } }, [
-          _c("img", {
-            staticClass: "w-1/6 m-auto",
+        _c(
+          "a",
+          {
             attrs: {
-              src: "images/downloadforandroid.png",
-              alt: "Скачать приложение для Android"
+              href:
+                "https://github.com/kosimoff/rastamojka/releases/download/1.0.0/RASTAMOJKA.TJ.apk"
             }
-          })
-        ])
+          },
+          [
+            _c("img", {
+              staticClass: "w-1/6 m-auto",
+              attrs: {
+                src: "images/downloadforandroid.png",
+                alt: "Скачать приложение для Android"
+              }
+            })
+          ]
+        )
       ]
     )
   }
