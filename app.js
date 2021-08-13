@@ -14296,7 +14296,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("a", { attrs: { href: "./index.html" } }, [
+    return _c("a", { attrs: { href: "./" } }, [
       _c("img", {
         staticClass: "mx-auto my-5 w-1/2",
         attrs: { src: "images/logo.png", alt: "RASTAMOJKA.TJ" }
