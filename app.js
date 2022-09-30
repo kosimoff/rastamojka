@@ -13873,7 +13873,9 @@ var render = function() {
                   }
                 },
                 _vm._l(_vm.models, function(model) {
-                  return _c("option", [_vm._v(_vm._s(model))])
+                  return _c("option", { key: model.id }, [
+                    _vm._v(_vm._s(model))
+                  ])
                 }),
                 0
               ),
@@ -14191,7 +14193,7 @@ var render = function() {
           _vm._v(" "),
           _c("p", { staticClass: "pt-5" }, [
             _vm._v(
-              "Этот сайт создан программистами- энтузиастами, в помощь наших граждан."
+              "Этот сайт создан программистами- энтузиастами, в помощь нашим гражданам."
             )
           ]),
           _vm._v(" "),
