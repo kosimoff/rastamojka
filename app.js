@@ -13779,7 +13779,7 @@ var render = function() {
             ),
             _vm._v(" "),
             _c("form", { attrs: { onsubmit: "return false" } }, [
-              _c("p", { staticClass: "flex pt-5 text-white nontranslate" }, [
+              _c("p", { staticClass: "flex pt-5 text-white notranslate" }, [
                 _vm._v("Make")
               ]),
               _vm._v(" "),
