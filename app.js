@@ -13779,8 +13779,8 @@ var render = function() {
             ),
             _vm._v(" "),
             _c("form", { attrs: { onsubmit: "return false" } }, [
-              _c("p", { staticClass: "flex pt-5 text-white notranslate" }, [
-                _vm._v("Make")
+              _c("p", { staticClass: "flex pt-5 text-white" }, [
+                _vm._v("Марка")
               ]),
               _vm._v(" "),
               _c(
@@ -13822,7 +13822,7 @@ var render = function() {
                   }
                 },
                 _vm._l(_vm.uniqueMakes, function(uniqueMake) {
-                  return _c("option", { staticClass: "nontranslate" }, [
+                  return _c("option", { staticClass: "notranslate" }, [
                     _vm._v(_vm._s(uniqueMake))
                   ])
                 }),
@@ -13875,7 +13875,7 @@ var render = function() {
                   }
                 },
                 _vm._l(_vm.models, function(model) {
-                  return _c("option", { staticClass: "nontranslate" }, [
+                  return _c("option", { staticClass: "notranslate" }, [
                     _vm._v(_vm._s(model))
                   ])
                 }),
@@ -13998,7 +13998,9 @@ var render = function() {
                   }
                 },
                 _vm._l(_vm.countries, function(country) {
-                  return _c("option", [_vm._v(_vm._s(country))])
+                  return _c("option", { staticClass: "notranslate" }, [
+                    _vm._v(_vm._s(country))
+                  ])
                 }),
                 0
               ),
