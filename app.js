@@ -13779,7 +13779,7 @@ var render = function() {
             ),
             _vm._v(" "),
             _c("form", { attrs: { onsubmit: "return false" } }, [
-              _c("p", { staticClass: "flex pt-5 text-white" }, [
+              _c("p", { staticClass: "flex pt-5 text-white nontranslate" }, [
                 _vm._v("Make")
               ]),
               _vm._v(" "),
@@ -13838,7 +13838,7 @@ var render = function() {
                 : _vm._e(),
               _vm._v(" "),
               _c("p", { staticClass: "flex pt-5 text-white" }, [
-                _vm._v("Model")
+                _vm._v("Модель")
               ]),
               _vm._v(" "),
               _c(
@@ -14037,10 +14037,10 @@ var render = function() {
               _vm._m(1),
               _vm._v(" "),
               _c("p", { staticClass: "mt-2" }, [
-                _vm._v("Make: " + _vm._s(_vm.selectedMake))
+                _vm._v("Марка: " + _vm._s(_vm.selectedMake))
               ]),
               _vm._v(" "),
-              _c("p", [_vm._v("Model: " + _vm._s(_vm.selectedModel))]),
+              _c("p", [_vm._v("Модель: " + _vm._s(_vm.selectedModel))]),
               _vm._v(" "),
               _c("p", [
                 _vm._v("Объем двигателя: " + _vm._s(_vm.engineCapacity) + " л.")
