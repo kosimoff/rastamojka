@@ -26878,7 +26878,7 @@ __webpack_require__.r(__webpack_exports__);
         "2021": 54000,
         "2022": 61000,
         "Make": "Автобус/ микроавтобус (СНГ)",
-        "Model": "Transit"
+        "Model": "Ford Transit"
       }, {
         "2006": 3459,
         "2007": 4070,
@@ -26898,7 +26898,7 @@ __webpack_require__.r(__webpack_exports__);
         "2021": 37800,
         "2022": 43050,
         "Make": "Автобус/ микроавтобус (СНГ)",
-        "Model": "Transit"
+        "Model": "Ford Transit"
       }, {
         "2006": 3459,
         "2007": 4070,
