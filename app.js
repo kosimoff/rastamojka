@@ -15958,7 +15958,7 @@ __webpack_require__.r(__webpack_exports__);
         "2021": 58118,
         "2022": 65625,
         "Make": "Mercedes Benz",
-        "Model": "Е 500"
+        "Model": "E 500"
       }, {
         "2006": 5159,
         "2007": 6070,
@@ -15978,7 +15978,7 @@ __webpack_require__.r(__webpack_exports__);
         "2021": 59063,
         "2022": 66675,
         "Make": "Mercedes Benz",
-        "Model": "Е 550"
+        "Model": "E 550"
       }, {
         "2006": 6473,
         "2007": 7615,
@@ -15998,7 +15998,7 @@ __webpack_require__.r(__webpack_exports__);
         "2021": 74097,
         "2022": 83380,
         "Make": "Mercedes Benz",
-        "Model": "Е AMG 53 4MATIC+ Sedan"
+        "Model": "E AMG 53 4MATIC+ Sedan"
       }, {
         "2006": 6616,
         "2007": 7783,
@@ -16018,7 +16018,7 @@ __webpack_require__.r(__webpack_exports__);
         "2021": 75734,
         "2022": 85199,
         "Make": "Mercedes Benz",
-        "Model": "Е AMG 53 4MATIC+ Coupe"
+        "Model": "E AMG 53 4MATIC+ Coupe"
       }, {
         "2006": 7054,
         "2007": 8299,
@@ -16038,7 +16038,7 @@ __webpack_require__.r(__webpack_exports__);
         "2021": 80754,
         "2022": 90777,
         "Make": "Mercedes Benz",
-        "Model": "Е AMG 53 4MATIC+ Cabriolet"
+        "Model": "E AMG 53 4MATIC+ Cabriolet"
       }, {
         "2006": 8844,
         "2007": 10404,
@@ -16058,7 +16058,7 @@ __webpack_require__.r(__webpack_exports__);
         "2021": 101239,
         "2022": 113538,
         "Make": "Mercedes Benz",
-        "Model": "Е AMG 63 4MATIC+ Sedan"
+        "Model": "E AMG 63 4MATIC+ Sedan"
       }, {
         "2006": 9818,
         "2007": 11550,
@@ -16078,7 +16078,7 @@ __webpack_require__.r(__webpack_exports__);
         "2021": 112389,
         "2022": 125927,
         "Make": "Mercedes Benz",
-        "Model": "Е AMG 63 S 4MATIC+ Sedan"
+        "Model": "E AMG 63 S 4MATIC+ Sedan"
       }, {
         "2006": 7033,
         "2007": 8274,
@@ -17318,7 +17318,7 @@ __webpack_require__.r(__webpack_exports__);
         "2021": 55094,
         "2022": 62265,
         "Make": "Mercedes Benz",
-        "Model": "GLЕ 250 d"
+        "Model": "GLE 250 d"
       }, {
         "2006": 4994,
         "2007": 5876,
@@ -17338,7 +17338,7 @@ __webpack_require__.r(__webpack_exports__);
         "2021": 57173,
         "2022": 64575,
         "Make": "Mercedes Benz",
-        "Model": "GLЕ 350 d"
+        "Model": "GLE 350 d"
       }, {
         "2006": 4747,
         "2007": 5584,
@@ -17358,7 +17358,7 @@ __webpack_require__.r(__webpack_exports__);
         "2021": 54338,
         "2022": 61425,
         "Make": "Mercedes Benz",
-        "Model": "GLЕ 250"
+        "Model": "GLE 250"
       }, {
         "2006": 5052,
         "2007": 5944,
@@ -17378,7 +17378,7 @@ __webpack_require__.r(__webpack_exports__);
         "2021": 57834,
         "2022": 65310,
         "Make": "Mercedes Benz",
-        "Model": "GLЕ 300"
+        "Model": "GLE 300"
       }, {
         "2006": 5320,
         "2007": 6259,
@@ -17398,7 +17398,7 @@ __webpack_require__.r(__webpack_exports__);
         "2021": 60905,
         "2022": 68723,
         "Make": "Mercedes Benz",
-        "Model": "GLЕ 350"
+        "Model": "GLE 350"
       }, {
         "2006": 5597,
         "2007": 6585,
@@ -17418,7 +17418,7 @@ __webpack_require__.r(__webpack_exports__);
         "2021": 64071,
         "2022": 72240,
         "Make": "Mercedes Benz",
-        "Model": "GLЕ 400"
+        "Model": "GLE 400"
       }, {
         "2006": 5712,
         "2007": 6720,
@@ -17438,7 +17438,7 @@ __webpack_require__.r(__webpack_exports__);
         "2021": 65387,
         "2022": 73702,
         "Make": "Mercedes Benz",
-        "Model": "GLЕ 450 4MATIC"
+        "Model": "GLE 450 4MATIC"
       }, {
         "2006": 5743,
         "2007": 6756,
@@ -17458,7 +17458,7 @@ __webpack_require__.r(__webpack_exports__);
         "2021": 65742,
         "2022": 74097,
         "Make": "Mercedes Benz",
-        "Model": "GLЕ 500 e 4MATIC"
+        "Model": "GLE 500 e 4MATIC"
       }, {
         "2006": 5765,
         "2007": 6783,
@@ -17478,7 +17478,7 @@ __webpack_require__.r(__webpack_exports__);
         "2021": 66001,
         "2022": 74384,
         "Make": "Mercedes Benz",
-        "Model": "GLЕ 450 4MATIC Coupe"
+        "Model": "GLE 450 4MATIC Coupe"
       }, {
         "2006": 7018,
         "2007": 8256,
@@ -17498,7 +17498,7 @@ __webpack_require__.r(__webpack_exports__);
         "2021": 80340,
         "2022": 90316,
         "Make": "Mercedes Benz",
-        "Model": "GLЕ 580 4MATIC"
+        "Model": "GLE 580 4MATIC"
       }, {
         "2006": 6660,
         "2007": 7836,
@@ -17518,7 +17518,7 @@ __webpack_require__.r(__webpack_exports__);
         "2021": 76246,
         "2022": 85768,
         "Make": "Mercedes Benz",
-        "Model": "GLЕ AMG 53 4MATIC+"
+        "Model": "GLE AMG 53 4MATIC+"
       }, {
         "2006": 6804,
         "2007": 8005,
@@ -17558,7 +17558,7 @@ __webpack_require__.r(__webpack_exports__);
         "2021": 108430,
         "2022": 121528,
         "Make": "Mercedes Benz",
-        "Model": "GLЕ AMG 63 4MATIC+"
+        "Model": "GLE AMG 63 4MATIC+"
       }, {
         "2006": 9829,
         "2007": 11563,
