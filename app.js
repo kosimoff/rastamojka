@@ -6517,7 +6517,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 8836,
         "2021": 10395,
         "2022": 12600,
-        "Make": "Chevrolet (США)",
+        "Make": "Chevrolet",
         "Model": "Aveo"
       }, {
         "2006": 2889,
@@ -6537,7 +6537,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 28114,
         "2021": 34650,
         "2022": 37800,
-        "Make": "Chevrolet (США)",
+        "Make": "Chevrolet",
         "Model": "Camaro 3,6"
       }, {
         "2006": 3715,
@@ -6557,7 +6557,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 36146,
         "2021": 44100,
         "2022": 48300,
-        "Make": "Chevrolet (США)",
+        "Make": "Chevrolet",
         "Model": "Camaro 6,2"
       }, {
         "2006": 1651,
@@ -6577,7 +6577,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 16065,
         "2021": 18900,
         "2022": 22050,
-        "Make": "Chevrolet (США)",
+        "Make": "Chevrolet",
         "Model": "Captiva 2,2"
       }, {
         "2006": 1445,
@@ -6597,7 +6597,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 14057,
         "2021": 16538,
         "2022": 19425,
-        "Make": "Chevrolet (США)",
+        "Make": "Chevrolet",
         "Model": "Captiva 2,4"
       }, {
         "2006": 1775,
@@ -6617,7 +6617,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 17270,
         "2021": 20318,
         "2022": 23625,
-        "Make": "Chevrolet (США)",
+        "Make": "Chevrolet",
         "Model": "Captiva 3,0"
       }, {
         "2006": 900,
@@ -6637,7 +6637,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 8434,
         "2021": 9923,
         "2022": 12075,
-        "Make": "Chevrolet (США)",
+        "Make": "Chevrolet",
         "Model": "Cobalt"
       }, {
         "2006": 8668,
@@ -6657,7 +6657,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 84341,
         "2021": 99225,
         "2022": 111300,
-        "Make": "Chevrolet (США)",
+        "Make": "Chevrolet",
         "Model": "Corvette 6,2"
       }, {
         "2006": 8255,
@@ -6677,7 +6677,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 80325,
         "2021": 100800,
         "2022": 106050,
-        "Make": "Chevrolet (США)",
+        "Make": "Chevrolet",
         "Model": "Corvette 6,2"
       }, {
         "2006": 1098,
@@ -6697,7 +6697,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 10683,
         "2021": 13125,
         "2022": 15015,
-        "Make": "Chevrolet (США)",
+        "Make": "Chevrolet",
         "Model": "Cruze"
       }, {
         "2006": 1098,
@@ -6717,7 +6717,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 10683,
         "2021": 13125,
         "2022": 15015,
-        "Make": "Chevrolet (США)",
+        "Make": "Chevrolet",
         "Model": "Cruze (универсал)"
       }, {
         "2006": 1073,
@@ -6737,7 +6737,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 10442,
         "2021": 12285,
         "2022": 14700,
-        "Make": "Chevrolet (США)",
+        "Make": "Chevrolet",
         "Model": "Kalos"
       }, {
         "2006": 1098,
@@ -6757,7 +6757,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 10683,
         "2021": 13125,
         "2022": 15015,
-        "Make": "Chevrolet (США)",
+        "Make": "Chevrolet",
         "Model": "Lacetti"
       }, {
         "2006": 1098,
@@ -6777,7 +6777,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 10683,
         "2021": 13125,
         "2022": 15015,
-        "Make": "Chevrolet (США)",
+        "Make": "Chevrolet",
         "Model": "Lacetti (универсал)"
       }, {
         "2006": 800,
@@ -6797,7 +6797,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 7631,
         "2021": 9660,
         "2022": 11025,
-        "Make": "Chevrolet (США)",
+        "Make": "Chevrolet",
         "Model": "Lanos"
       }, {
         "2006": 1651,
@@ -6817,7 +6817,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 16065,
         "2021": 18900,
         "2022": 22050,
-        "Make": "Chevrolet (США)",
+        "Make": "Chevrolet",
         "Model": "Malibu"
       }, {
         "2006": 1156,
@@ -6837,7 +6837,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 11246,
         "2021": 13230,
         "2022": 15750,
-        "Make": "Chevrolet (США)",
+        "Make": "Chevrolet",
         "Model": "Orlando"
       }, {
         "2006": 920,
@@ -6857,7 +6857,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 8836,
         "2021": 10395,
         "2022": 12600,
-        "Make": "Chevrolet (США)",
+        "Make": "Chevrolet",
         "Model": "Sonic"
       }, {
         "2006": 750,
@@ -6877,7 +6877,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 7229,
         "2021": 8505,
         "2022": 10500,
-        "Make": "Chevrolet (США)",
+        "Make": "Chevrolet",
         "Model": "Spark"
       }, {
         "2006": 7429,
@@ -6897,7 +6897,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 72293,
         "2021": 88200,
         "2022": 95550,
-        "Make": "Chevrolet (США)",
+        "Make": "Chevrolet",
         "Model": "Suburban"
       }, {
         "2006": 3962,
@@ -6917,7 +6917,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 38556,
         "2021": 46725,
         "2022": 51450,
-        "Make": "Chevrolet (США)",
+        "Make": "Chevrolet",
         "Model": "Tahoe"
       }, {
         "2006": 2146,
@@ -6937,7 +6937,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 20885,
         "2021": 24570,
         "2022": 28350,
-        "Make": "Chevrolet (США)",
+        "Make": "Chevrolet",
         "Model": "TrailBlazer 2,8"
       }, {
         "2006": 2311,
@@ -6957,7 +6957,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 22491,
         "2021": 26460,
         "2022": 30450,
-        "Make": "Chevrolet (США)",
+        "Make": "Chevrolet",
         "Model": "TrailBlazer 3,6"
       }, {
         "2006": 4210,
@@ -6977,7 +6977,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 40966,
         "2021": 50400,
         "2022": 54600,
-        "Make": "Chevrolet (США)",
+        "Make": "Chevrolet",
         "Model": "Traverse"
       }, {
         "2006": "",
@@ -21877,7 +21877,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 7721,
         "2021": 8978,
         "2022": 11025,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Fabia 1,2 мт Universal"
       }, {
         "2006": 1033,
@@ -21897,7 +21897,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 8533,
         "2021": 9923,
         "2022": 12075,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Fabia 1,4 мт Universal"
       }, {
         "2006": 1131,
@@ -21917,7 +21917,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 9346,
         "2021": 10868,
         "2022": 13125,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Fabia 1,6 мт Universal"
       }, {
         "2006": 1067,
@@ -21937,7 +21937,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 8813,
         "2021": 10248,
         "2022": 12436,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Fabia Active (1,0 куб. см., акпп, 110 л.с.)"
       }, {
         "2006": 772,
@@ -21957,7 +21957,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 6376,
         "2021": 7414,
         "2022": 9288,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Fabia Active (1,0 куб. см., мкпп, 60 л.с.)"
       }, {
         "2006": 813,
@@ -21977,7 +21977,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 6715,
         "2021": 7808,
         "2022": 9725,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Fabia Active (1,0 куб. см., мкпп, 75 л.с.)"
       }, {
         "2006": 1031,
@@ -21997,7 +21997,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 8518,
         "2021": 9905,
         "2022": 12055,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Fabia Active (1,6 куб. см., акпп, 110 л.с.)"
       }, {
         "2006": 867,
@@ -22017,7 +22017,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 7165,
         "2021": 8331,
         "2022": 10307,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Fabia Active (1,6 куб. см., мкпп, 90 л.с.)"
       }, {
         "2006": 1155,
@@ -22037,7 +22037,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 9544,
         "2021": 11097,
         "2022": 13380,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Fabia Ambiente (1,0 куб. см., акпп, 110 л.с.)"
       }, {
         "2006": 860,
@@ -22057,7 +22057,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 7106,
         "2021": 8263,
         "2022": 10231,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Fabia Ambiente (1,0 куб. см., мкпп, 60 л.с.)"
       }, {
         "2006": 901,
@@ -22077,7 +22077,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 7445,
         "2021": 8657,
         "2022": 10669,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Fabia Ambiente (1,0 куб. см., мкпп, 75 л.с.)"
       }, {
         "2006": 1039,
@@ -22097,7 +22097,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 8584,
         "2021": 9981,
         "2022": 12140,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Fabia Ambiente (1,0 куб. см., мкпп, 95 л.с.)"
       }, {
         "2006": 1120,
@@ -22117,7 +22117,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 9249,
         "2021": 10754,
         "2022": 12999,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Fabia Ambiente (1,6 куб. см., акпп, 110 л.с.)"
       }, {
         "2006": 956,
@@ -22137,7 +22137,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 7895,
         "2021": 9180,
         "2022": 11250,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Fabia Ambiente (1,6 куб. см., мкпп, 90 л.с.)"
       }, {
         "2006": 1165,
@@ -22157,7 +22157,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 9625,
         "2021": 11192,
         "2022": 13485,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Kamiq Active(1,5 куб. см., акпп, 150 л.с.)"
       }, {
         "2006": 1042,
@@ -22177,7 +22177,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 8609,
         "2021": 10010,
         "2022": 12173,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Kamiq Active(1,6 куб. см., акпп, 125 л.с.)"
       }, {
         "2006": 944,
@@ -22197,7 +22197,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 7796,
         "2021": 9065,
         "2022": 11123,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Kamiq Active(1,6 куб. см., мкпп, 125 л.с.)"
       }, {
         "2006": 1141,
@@ -22217,7 +22217,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 9427,
         "2021": 10961,
         "2022": 13229,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Kamiq Ambiente (1,5 куб. см., акпп, 150 л.с.)"
       }, {
         "2006": 1117,
@@ -22237,7 +22237,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 9223,
         "2021": 10725,
         "2022": 12966,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Kamiq Ambiente (1,6 куб. см., акпп, 125 л.с.)"
       }, {
         "2006": 1018,
@@ -22257,7 +22257,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 8411,
         "2021": 9780,
         "2022": 11916,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Kamiq Ambiente (1,6 куб. см., мкпп, 125 л.с.)"
       }, {
         "2006": 1331,
@@ -22277,7 +22277,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 10995,
         "2021": 12785,
         "2022": 15255,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Kamiq Style (1,5 куб. см., акпп, 150 л.с.)"
       }, {
         "2006": 1208,
@@ -22297,7 +22297,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 9979,
         "2021": 11604,
         "2022": 13943,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Kamiq Style (1,6 куб. см., акпп, 125 л.с.)"
       }, {
         "2006": 1110,
@@ -22317,7 +22317,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 9166,
         "2021": 10659,
         "2022": 12893,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Kamiq Style (1,6 куб. см., мкпп, 125 л.с.)"
       }, {
         "2006": 1682,
@@ -22337,7 +22337,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 13898,
         "2021": 16160,
         "2022": 19006,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Karоq Ambiente (1,4 куб. см., акпп, 150 л.с.)"
       }, {
         "2006": 1848,
@@ -22357,7 +22357,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 15270,
         "2021": 17756,
         "2022": 20778,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Karоq Ambiente (2,0 D куб. см., акпп 4х4, 140 л.с.)"
       }, {
         "2006": 1758,
@@ -22377,7 +22377,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 14524,
         "2021": 16888,
         "2022": 19815,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Karоq Style (1,4 куб. см., акпп, 150 л.с.)"
       }, {
         "2006": 1924,
@@ -22397,7 +22397,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 15896,
         "2021": 18483,
         "2022": 21587,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Karоq Style (2,0 D куб. см., акпп 4х4, 140 л.с.)"
       }, {
         "2006": 1882,
@@ -22417,7 +22417,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 15549,
         "2021": 18080,
         "2022": 21139,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Kodiaq Active (1,4 куб. см., акпп, 150 л.с.)"
       }, {
         "2006": 2055,
@@ -22437,7 +22437,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 16978,
         "2021": 19742,
         "2022": 22986,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Kodiaq Active (2,0 куб. см., акпп 4х4, 180 л.с.)"
       }, {
         "2006": 1966,
@@ -22457,7 +22457,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 16241,
         "2021": 18885,
         "2022": 22033,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Kodiaq Ambiente (1,4 куб. см., акпп, 150 л.с.)"
       }, {
         "2006": 2139,
@@ -22477,7 +22477,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 17671,
         "2021": 20547,
         "2022": 23880,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Kodiaq Ambiente (2,0 куб. см., акпп 4х4, 180 л.с.)"
       }, {
         "2006": 2732,
@@ -22497,7 +22497,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 22565,
         "2021": 26238,
         "2022": 30203,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Kodiaq L&K (2,0 куб. см., акпп 4х4, 180 л.с.)"
       }, {
         "2006": 2411,
@@ -22517,7 +22517,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 19917,
         "2021": 23159,
         "2022": 26782,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Kodiaq Scout (2,0 куб. см., акпп 4х4, 180 л.с.)"
       }, {
         "2006": 2070,
@@ -22537,7 +22537,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 17103,
         "2021": 19888,
         "2022": 23147,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Kodiaq Style (1,4 куб. см., акпп, 150 л.с.)"
       }, {
         "2006": 2345,
@@ -22557,7 +22557,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 19375,
         "2021": 22529,
         "2022": 26082,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Kodiaq Style (2,0 D куб. см., акпп 4х4, 150 л.с.)"
       }, {
         "2006": 2243,
@@ -22577,7 +22577,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 18533,
         "2021": 21550,
         "2022": 24994,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Kodiaq Style (2,0 куб. см., акпп 4х4, 180 л.с.)"
       }, {
         "2006": 1125,
@@ -22597,7 +22597,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 9291,
         "2021": 10803,
         "2022": 13053,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Octavia Active Combi Universal(1.4 куб. см., 150 л.с., мкпп)"
       }, {
         "2006": 1115,
@@ -22617,7 +22617,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 9208,
         "2021": 10707,
         "2022": 12946,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Octavia Active Combi Universal(1.6 куб. см., 110 л.с., акпп)"
       }, {
         "2006": 1045,
@@ -22637,7 +22637,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 8636,
         "2021": 10041,
         "2022": 12207,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Octavia Active Combi Universal(1.6 куб. см., 110 л.с., мкпп)"
       }, {
         "2006": 1269,
@@ -22657,7 +22657,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 10483,
         "2021": 12190,
         "2022": 14594,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Octavia Ambiente Combi Universal(1.4 куб. см., 150 л.с., акмм)"
       }, {
         "2006": 1232,
@@ -22677,7 +22677,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 10180,
         "2021": 11837,
         "2022": 14203,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Octavia Ambiente Combi Universal(1.4 куб. см., 150 л.с., мкпп)"
       }, {
         "2006": 1219,
@@ -22697,7 +22697,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 10069,
         "2021": 11708,
         "2022": 14059,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Octavia Ambiente Combi Universal(1.6 куб. см., 110 л.с., акпп)"
       }, {
         "2006": 1175,
@@ -22717,7 +22717,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 9707,
         "2021": 11287,
         "2022": 13591,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Octavia Ambiente Combi Universal(1.6 куб. см., 110 л.с., мкпп)"
       }, {
         "2006": 1327,
@@ -22737,7 +22737,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 10964,
         "2021": 12749,
         "2022": 15216,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Octavia Ambiente Combi Universal(1.8 куб. см., 180 л.с.,акпп)"
       }, {
         "2006": 1364,
@@ -22757,7 +22757,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 11266,
         "2021": 13100,
         "2022": 15606,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Octavia Style Combi Universal(1.4 куб.см., 150 л.с.,акпп)"
       }, {
         "2006": 1328,
@@ -22777,7 +22777,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 10974,
         "2021": 12760,
         "2022": 15228,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Octavia Style Combi Universal(1.4 куб.см., 150 л.с.,мкпп)"
       }, {
         "2006": 1314,
@@ -22797,7 +22797,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 10857,
         "2021": 12624,
         "2022": 15077,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Octavia Style Combi Universal(1.6 куб. см., 110 л.с., акпп)"
       }, {
         "2006": 1271,
@@ -22817,7 +22817,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 10499,
         "2021": 12208,
         "2022": 14614,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Octavia Style Combi Universal(1.6 куб. см., 110 л.с., мкпп)"
       }, {
         "2006": 1421,
@@ -22837,7 +22837,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 11741,
         "2021": 13652,
         "2022": 16219,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Octavia Style Combi Universal(1.8 куб. см.,180 л.с.акпп)"
       }, {
         "2006": 1328,
@@ -22857,7 +22857,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 10971,
         "2021": 12758,
         "2022": 15225,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Roomster"
       }, {
         "2006": 1613,
@@ -22877,7 +22877,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 13328,
         "2021": 15498,
         "2022": 18270,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Roomster Scout"
       }, {
         "2006": 1127,
@@ -22897,7 +22897,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 9313,
         "2021": 10829,
         "2022": 13082,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Scala Active (1,5 куб. см., акпп, 150 л.с.)"
       }, {
         "2006": 1020,
@@ -22917,7 +22917,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 8424,
         "2021": 9796,
         "2022": 11934,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Scala Active (1,6 куб. см., акпп, 125 л.с.)"
       }, {
         "2006": 921,
@@ -22937,7 +22937,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 7612,
         "2021": 8851,
         "2022": 10884,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Scala Active (1,6 куб. см., мкпп, 125 л.с.)"
       }, {
         "2006": 1223,
@@ -22957,7 +22957,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 10104,
         "2021": 11749,
         "2022": 14105,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Scala Ambiente (1,5 куб. см., акпп, 150 л.с.)"
       }, {
         "2006": 1100,
@@ -22977,7 +22977,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 9088,
         "2021": 10568,
         "2022": 12792,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Scala Ambiente (1,6 куб. см., акпп, 125 л.с.)"
       }, {
         "2006": 1002,
@@ -22997,7 +22997,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 8276,
         "2021": 9623,
         "2022": 11742,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Scala Ambiente (1,6 куб. см., мкпп, 125 л.с.)"
       }, {
         "2006": 1293,
@@ -23017,7 +23017,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 10683,
         "2021": 12422,
         "2022": 14852,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Scala Style (1,5 куб. см., акпп, 150 л.с.)"
       }, {
         "2006": 1170,
@@ -23037,7 +23037,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 9667,
         "2021": 11241,
         "2022": 13540,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Scala Style (1,6 куб. см., акпп, 125 л.с.)"
       }, {
         "2006": 1072,
@@ -23057,7 +23057,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 8854,
         "2021": 10296,
         "2022": 12490,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Scala Style (1,6 куб. см., мкпп, 125 л.с.)"
       }, {
         "2006": 1741,
@@ -23077,7 +23077,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 14385,
         "2021": 16727,
         "2022": 19635,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Super b Active (1,4 куб. см., акпп, 150 л.с.)"
       }, {
         "2006": 1811,
@@ -23097,7 +23097,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 14964,
         "2021": 17400,
         "2022": 20384,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Super b Active (2,0 D куб. см., акпп, 177 л.с.)"
       }, {
         "2006": 1859,
@@ -23117,7 +23117,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 15355,
         "2021": 17855,
         "2022": 20889,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Super b Active (2,0 D куб. см., акпп, 190 л.с.)"
       }, {
         "2006": 1899,
@@ -23137,7 +23137,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 15686,
         "2021": 18239,
         "2022": 21316,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Super b Active (2,0 куб. см., акпп, 220 л.с.)"
       }, {
         "2006": 1819,
@@ -23157,7 +23157,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 15026,
         "2021": 17472,
         "2022": 20463,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Super b Ambiente (1,4 куб. см., акпп, 150 л.с.)"
       }, {
         "2006": 1889,
@@ -23177,7 +23177,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 15605,
         "2021": 18146,
         "2022": 21212,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Super b Ambiente (2,0 D куб. см., акпп, 177 л.с.)"
       }, {
         "2006": 1936,
@@ -23197,7 +23197,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 15996,
         "2021": 18600,
         "2022": 21717,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Super b Ambiente (2,0 D куб. см., акпп, 190 л.с.)"
       }, {
         "2006": 1976,
@@ -23217,7 +23217,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 16327,
         "2021": 18985,
         "2022": 22145,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Super b Ambiente (2,0 куб. см., акпп, 220 л.с.)"
       }, {
         "2006": 2212,
@@ -23237,7 +23237,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 18277,
         "2021": 21252,
         "2022": 24663,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Super b Ambiente (2,0 куб. см., акпп, 280 л.с.)"
       }, {
         "2006": 2335,
@@ -23257,7 +23257,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 19286,
         "2021": 22426,
         "2022": 25968,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Super b L&K (2,0 D куб. см., акпп, 180 л.с.)"
       }, {
         "2006": 2375,
@@ -23277,7 +23277,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 19617,
         "2021": 22810,
         "2022": 26395,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Super b L&K (2,0 куб. см., акпп, 220 л.с.)"
       }, {
         "2006": 2611,
@@ -23297,7 +23297,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 21567,
         "2021": 25077,
         "2022": 28914,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Super b L&K (2,0 куб. см., акпп, 280 л.с.)"
       }, {
         "2006": 1927,
@@ -23317,7 +23317,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 15918,
         "2021": 18509,
         "2022": 21615,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Super b Style (1,4 куб. см., акпп, 180 л.с.)"
       }, {
         "2006": 1997,
@@ -23337,7 +23337,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 16497,
         "2021": 19183,
         "2022": 22364,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Super b Style (2,0 D куб. см., акпп, 177 л.с.)"
       }, {
         "2006": 2044,
@@ -23357,7 +23357,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 16888,
         "2021": 19637,
         "2022": 22869,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Super b Style (2,0 D куб. см., акпп, 180 л.с.)"
       }, {
         "2006": 2084,
@@ -23377,7 +23377,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 17219,
         "2021": 20022,
         "2022": 23296,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Super b Style (2,0 куб. см., акпп, 220 л.с.)"
       }, {
         "2006": 2320,
@@ -23397,7 +23397,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 19168,
         "2021": 22289,
         "2022": 25815,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Super b Style (2,0 куб. см., акпп, 280 л.с.)"
       }, {
         "2006": 3738,
@@ -23417,7 +23417,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 30883,
         "2021": 35910,
         "2022": 40950,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Superb Universal"
       }, {
         "2006": 2066,
@@ -23437,7 +23437,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 17067,
         "2021": 19845,
         "2022": 23100,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Yeti 1,4"
       }, {
         "2006": 1997,
@@ -23457,7 +23457,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 16498,
         "2021": 19184,
         "2022": 22365,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Yeti 1,6"
       }, {
         "2006": 2263,
@@ -23477,7 +23477,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 18692,
         "2021": 21735,
         "2022": 25200,
-        "Make": "Skoda (Чехия)",
+        "Make": "Skoda",
         "Model": "Yeti 1,8"
       }, {
         "2006": 1300,
@@ -23997,7 +23997,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 29760,
         "2021": 35012,
         "2022": 39953,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "4-Runner"
       }, {
         "2006": 2826,
@@ -24017,7 +24017,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 27500,
         "2021": 28256,
         "2022": 32445,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "76 (LC) 4,0 PTL"
       }, {
         "2006": 2933,
@@ -24037,7 +24037,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 28539,
         "2021": 29295,
         "2022": 33600,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "76 (LC) 4,2- 4,5 DSL"
       }, {
         "2006": 2962,
@@ -24057,7 +24057,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 28823,
         "2021": 29579,
         "2022": 33915,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "78 (LC) 4,0 PTL"
       }, {
         "2006": 3020,
@@ -24077,7 +24077,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 29390,
         "2021": 29862,
         "2022": 34230,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "78 (LC) 4,2-4,5 DSL"
       }, {
         "2006": 3156,
@@ -24097,7 +24097,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 30713,
         "2021": 31185,
         "2022": 35700,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "79 (LC) 4,0 PTL"
       }, {
         "2006": 3185,
@@ -24117,7 +24117,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 30996,
         "2021": 31658,
         "2022": 36225,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "79 (LC) 4,2-4,5 DSL"
       }, {
         "2006": 1661,
@@ -24137,7 +24137,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 16905,
         "2021": 17200,
         "2022": 19200,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Allex"
       }, {
         "2006": 5366,
@@ -24157,7 +24157,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 52211,
         "2021": 61425,
         "2022": 69300,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Alphard"
       }, {
         "2006": 1661,
@@ -24177,7 +24177,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 16905,
         "2021": 17955,
         "2022": 19530,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Aqua"
       }, {
         "2006": 2724,
@@ -24197,7 +24197,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 26507,
         "2021": 31185,
         "2022": 35700,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Aurion"
       }, {
         "2006": 1568,
@@ -24217,7 +24217,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 15262,
         "2021": 17955,
         "2022": 21000,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Auris"
       }, {
         "2006": 3054,
@@ -24237,7 +24237,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 29720,
         "2021": 34965,
         "2022": 39900,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Avalon"
       }, {
         "2006": 2100,
@@ -24257,7 +24257,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 20885,
         "2021": 24570,
         "2022": 26500,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Avensis"
       }, {
         "2006": 1403,
@@ -24277,7 +24277,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 13655,
         "2021": 16065,
         "2022": 18900,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Belta"
       }, {
         "2006": 1568,
@@ -24297,7 +24297,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 15262,
         "2021": 17955,
         "2022": 21000,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Blade"
       }, {
         "2006": 2331,
@@ -24317,7 +24317,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 22680,
         "2021": 23153,
         "2022": 26775,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "C-HR"
       }, {
         "2006": 2146,
@@ -24337,7 +24337,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 20885,
         "2021": 24570,
         "2022": 28350,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "C-HR Hybrid"
       }, {
         "2006": 2884,
@@ -24357,7 +24357,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 28067,
         "2021": 28823,
         "2022": 33075,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Camry 2,0 - 2,5 PTL"
       }, {
         "2006": 3205,
@@ -24377,7 +24377,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 31185,
         "2021": 32130,
         "2022": 36750,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Camry 3,5 PTL"
       }, {
         "2006": 1750,
@@ -24397,7 +24397,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 17100,
         "2021": 17800,
         "2022": 19530,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Corolla"
       }, {
         "2006": 1550,
@@ -24417,7 +24417,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 14459,
         "2021": 17010,
         "2022": 19950,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Corolla Axio"
       }, {
         "2006": 3715,
@@ -24437,7 +24437,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 36146,
         "2021": 42525,
         "2022": 48300,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Crown"
       }, {
         "2006": 3508,
@@ -24457,7 +24457,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 34138,
         "2021": 40163,
         "2022": 45675,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Estima"
       }, {
         "2006": 1899,
@@ -24477,7 +24477,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 18475,
         "2021": 21735,
         "2022": 25200,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Fielder"
       }, {
         "2006": 2666,
@@ -24497,7 +24497,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 25945,
         "2021": 30524,
         "2022": 34965,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "FJ"
       }, {
         "2006": 2807,
@@ -24517,7 +24517,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 27311,
         "2021": 32130,
         "2022": 36750,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Fortuner 2,7"
       }, {
         "2006": 2765,
@@ -24537,7 +24537,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 26909,
         "2021": 31658,
         "2022": 36225,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Fortuner 2,8"
       }, {
         "2006": 2848,
@@ -24557,7 +24557,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 27712,
         "2021": 32603,
         "2022": 37275,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "GT86"
       }, {
         "2006": 3054,
@@ -24577,7 +24577,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 29720,
         "2021": 34965,
         "2022": 39900,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Harrier"
       }, {
         "2006": 2724,
@@ -24597,7 +24597,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 26507,
         "2021": 31185,
         "2022": 35700,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Hiace"
       }, {
         "2006": 2972,
@@ -24617,7 +24617,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 28917,
         "2021": 34020,
         "2022": 38850,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Highlander объем более 2,7 литра"
       }, {
         "2006": 2826,
@@ -24637,7 +24637,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 27500,
         "2021": 28256,
         "2022": 30450,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Highlander объем до 2,7 литра"
       }, {
         "2006": 2447,
@@ -24657,7 +24657,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 23814,
         "2021": 24192,
         "2022": 27930,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Hilux 2,5"
       }, {
         "2006": 2282,
@@ -24677,7 +24677,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 22208,
         "2021": 22869,
         "2022": 26460,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Hilux 2,7 PTL"
       }, {
         "2006": 2826,
@@ -24697,7 +24697,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 27500,
         "2021": 27878,
         "2022": 32025,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Hilux 2,8"
       }, {
         "2006": 2064,
@@ -24717,7 +24717,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 20081,
         "2021": 23625,
         "2022": 27300,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Innova"
       }, {
         "2006": 2146,
@@ -24737,7 +24737,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 20885,
         "2021": 24570,
         "2022": 28350,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "IPSUM"
       }, {
         "2006": 1020,
@@ -24757,7 +24757,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 9639,
         "2021": 11340,
         "2022": 13650,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "iQ"
       }, {
         "2006": 1568,
@@ -24777,7 +24777,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 15262,
         "2021": 17955,
         "2022": 21000,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Ist"
       }, {
         "2006": 4370,
@@ -24797,7 +24797,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 42525,
         "2021": 42525,
         "2022": 48300,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Land Cruiser 200 4,0"
       }, {
         "2006": 6992,
@@ -24817,7 +24817,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 68040,
         "2021": 74550,
         "2022": 79800,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Land Cruiser 200 4,5"
       }, {
         "2006": 5827,
@@ -24837,7 +24837,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 56700,
         "2021": 64050,
         "2022": 68250,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Land Cruiser 200 4,6"
       }, {
         "2006": "",
@@ -24857,7 +24857,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": "",
         "2021": 72450,
         "2022": 76650,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Land Cruiser 300 V6 3,5L (бензин)"
       }, {
         "2006": "",
@@ -24877,7 +24877,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": "",
         "2021": 51450,
         "2022": 53550,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Land Cruiser 300 V6 4,0L (бензин)"
       }, {
         "2006": 3917,
@@ -24897,7 +24897,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 36383,
         "2021": 36855,
         "2022": 42000,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Land Cruiser Prado 2,7"
       }, {
         "2006": 4186,
@@ -24917,7 +24917,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 38877,
         "2021": 45738,
         "2022": 51870,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Land Cruiser Prado 2,8"
       }, {
         "2006": 4222,
@@ -24937,7 +24937,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 39218,
         "2021": 39218,
         "2022": 44625,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Land Cruiser Prado 4,0"
       }, {
         "2006": 2064,
@@ -24957,7 +24957,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 20081,
         "2021": 23625,
         "2022": 27300,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Mark"
       }, {
         "2006": 2064,
@@ -24977,7 +24977,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 20081,
         "2021": 23625,
         "2022": 27300,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Mark X Zio"
       }, {
         "2006": 2064,
@@ -24997,7 +24997,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 20081,
         "2021": 23625,
         "2022": 27300,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Mark Zio"
       }, {
         "2006": 3137,
@@ -25017,7 +25017,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 30524,
         "2021": 35910,
         "2022": 40950,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Noah"
       }, {
         "2006": 1020,
@@ -25037,7 +25037,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 8836,
         "2021": 10395,
         "2022": 12600,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Passo"
       }, {
         "2006": 2889,
@@ -25057,7 +25057,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 28114,
         "2021": 33075,
         "2022": 37800,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Previa"
       }, {
         "2006": 2642,
@@ -25077,7 +25077,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 25704,
         "2021": 30240,
         "2022": 34650,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Prius"
       }, {
         "2006": 2064,
@@ -25097,7 +25097,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 20081,
         "2021": 23625,
         "2022": 27300,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Raum"
       }, {
         "2006": 3059,
@@ -25117,7 +25117,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 29768,
         "2021": 30240,
         "2022": 34650,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "RAV-4 2,0"
       }, {
         "2006": 2988,
@@ -25137,7 +25137,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 29078,
         "2021": 34209,
         "2022": 39060,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "RAV-4 2,2 d"
       }, {
         "2006": 3215,
@@ -25157,7 +25157,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 31280,
         "2021": 31752,
         "2022": 36330,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "RAV-4 2,5"
       }, {
         "2006": 3303,
@@ -25177,7 +25177,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 29603,
         "2021": 34734,
         "2022": 39900,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "RAV-4 3,5"
       }, {
         "2006": 1661,
@@ -25197,7 +25197,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 16160,
         "2021": 16632,
         "2022": 19530,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Rumion"
       }, {
         "2006": 1734,
@@ -25217,7 +25217,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 17693,
         "2021": 21525,
         "2022": 23100,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Rush"
       }, {
         "2006": 2476,
@@ -25237,7 +25237,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 24098,
         "2021": 28350,
         "2022": 32550,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Scion"
       }, {
         "2006": 4127,
@@ -25257,7 +25257,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 40163,
         "2021": 47250,
         "2022": 53550,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Sequoia Iimited"
       }, {
         "2006": 4375,
@@ -25277,7 +25277,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 42572,
         "2021": 50085,
         "2022": 56700,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Sequoia Platinum"
       }, {
         "2006": 3632,
@@ -25297,7 +25297,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 35343,
         "2021": 41580,
         "2022": 47250,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Sequoia SR5"
       }, {
         "2006": 3797,
@@ -25317,7 +25317,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 36950,
         "2021": 43470,
         "2022": 49350,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Sienna"
       }, {
         "2006": 1816,
@@ -25337,7 +25337,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 17672,
         "2021": 20790,
         "2022": 24150,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Sienta"
       }, {
         "2006": 7099,
@@ -25357,7 +25357,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 69080,
         "2021": 81270,
         "2022": 91350,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Supra"
       }, {
         "2006": 4127,
@@ -25377,7 +25377,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 40163,
         "2021": 47250,
         "2022": 53550,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Tacoma"
       }, {
         "2006": 3797,
@@ -25397,7 +25397,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 36950,
         "2021": 43470,
         "2022": 49350,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Tundra"
       }, {
         "2006": 2559,
@@ -25417,7 +25417,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 24901,
         "2021": 29295,
         "2022": 33600,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Vellfire"
       }, {
         "2006": 2972,
@@ -25437,7 +25437,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 28917,
         "2021": 34020,
         "2022": 38850,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Venza"
       }, {
         "2006": 1899,
@@ -25457,7 +25457,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 18475,
         "2021": 21735,
         "2022": 25200,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Verso"
       }, {
         "2006": 1020,
@@ -25477,7 +25477,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 8836,
         "2021": 10395,
         "2022": 12600,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Vitz"
       }, {
         "2006": 2559,
@@ -25497,7 +25497,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 24901,
         "2021": 29295,
         "2022": 33600,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Voxy"
       }, {
         "2006": 1651,
@@ -25517,7 +25517,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 16065,
         "2021": 18900,
         "2022": 22050,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Wish"
       }, {
         "2006": 1238,
@@ -25537,7 +25537,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 12049,
         "2021": 14175,
         "2022": 16800,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Yaris"
       }, {
         "2006": 1403,
@@ -25557,7 +25557,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 13655,
         "2021": 16065,
         "2022": 18900,
-        "Make": "Toyota (Япония)",
+        "Make": "Toyota",
         "Model": "Yaris (гибрид)"
       }, {
         "2006": 3797,
@@ -26557,7 +26557,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 53550,
         "2021": 63000,
         "2022": 71000,
-        "Make": "Автобус/ микроавтобус (Великобритания)",
+        "Make": "Автобус/ микроавтобус (Англия)",
         "Model": "Более 16 сидячих мест"
       }, {
         "2006": 4324,
@@ -26577,7 +26577,7 @@ __webpack_require__.r(__webpack_exports__);
         "2020": 42075,
         "2021": 49500,
         "2022": 56100,
-        "Make": "Автобус/ микроавтобус (Великобритания)",
+        "Make": "Автобус/ микроавтобус (Англия)",
         "Model": "До 16 сидячих мест"
       }, {
         "2006": 6290,
