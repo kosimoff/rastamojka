@@ -91,6 +91,7 @@
       const btnInstallApp = document.getElementById("btn-install-app");
 
       if (btnInstallApp) {
+        console.log("pressed");
         btnInstallApp.addEventListener("click", (e) => {
           ym(71383423, "reachGoal", "clickedPWA");
           deferredPrompt.prompt();
