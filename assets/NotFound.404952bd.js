@@ -1,1 +1,0 @@
-import{_ as t,c as e,o,a as s}from"./index.8ba5105c.js";const c={},_={class:"p-20"},a=s("div",{class:"text-6xl"},"404",-1),n=s("div",{class:"text-2xl"},"\u0421\u0442\u0440\u0430\u043D\u0438\u0446\u0430 \u043D\u0435 \u043D\u0430\u0439\u0434\u0435\u043D\u0430",-1),d=[a,n];function r(i,l){return o(),e("div",_,d)}const f=t(c,[["render",r]]);export{f as default};
